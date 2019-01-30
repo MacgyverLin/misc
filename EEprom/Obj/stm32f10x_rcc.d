@@ -1,0 +1,11 @@
+.\Obj\stm32f10x_rcc.o: Drivers\src\stm32f10x_rcc.c
+.\Obj\stm32f10x_rcc.o: ./Drivers/inc/stm32f10x_rcc.h
+.\Obj\stm32f10x_rcc.o: ./CMSIS/stm32f10x.h
+.\Obj\stm32f10x_rcc.o: ./CMSIS/core_cm3.h
+.\Obj\stm32f10x_rcc.o: E:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\stm32f10x_rcc.o: ./CMSIS/system_stm32f10x.h
+.\Obj\stm32f10x_rcc.o: ./Users/stm32f10x_conf.h
+.\Obj\stm32f10x_rcc.o: ./Drivers/inc/stm32f10x_gpio.h
+.\Obj\stm32f10x_rcc.o: ./CMSIS/stm32f10x.h
+.\Obj\stm32f10x_rcc.o: ./Drivers/inc/stm32f10x_rcc.h
+.\Obj\stm32f10x_rcc.o: ./Drivers/inc/misc.h

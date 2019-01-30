@@ -1,0 +1,261 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Project\STM32\project.uvproj
+Project File Date:  01/30/2019
+
+<h2>Output:</h2>
+Build target 'project'
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_dma.c...
+assembling startup_stm32f10x_md.s...
+compiling delay.c...
+HAL\delay.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling io.c...
+compiling usart.c...
+HAL\usart.c(53): warning:  #223-D: function "vsnprintf" declared implicitly
+HAL\usart.c(54): warning:  #223-D: function "strlen" declared implicitly
+HAL\usart.c(96): warning:  #550-D: variable "a" was set but never used
+compiling stm32f10x_it.c...
+compiling mmc_sd.c...
+HWModule\mmc_sd.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling VGMBoard.c...
+HWModule\VGMBoard.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling main.cpp...
+Users\main.cpp(2): error:  #5: cannot open source input file "uart.h": No such file or directory
+Target not created
+Build target 'project'
+compiling delay.c...
+HAL\delay.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling usart.c...
+HAL\usart.c(45): warning:  #223-D: function "TIM_ClearFlag" declared implicitly
+HAL\usart.c(47): warning:  #223-D: function "TIM_ITConfig" declared implicitly
+HAL\usart.c(60): warning:  #223-D: function "vsnprintf" declared implicitly
+HAL\usart.c(61): warning:  #223-D: function "strlen" declared implicitly
+HAL\usart.c(103): warning:  #550-D: variable "a" was set but never used
+compiling mmc_sd.c...
+HWModule\mmc_sd.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling VGMBoard.c...
+HWModule\VGMBoard.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling main.cpp...
+Users\main.cpp(2): error:  #5: cannot open source input file "uart.h": No such file or directory
+Target not created
+Build target 'project'
+compiling delay.c...
+compiling mmc_sd.c...
+HWModule\mmc_sd.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling VGMBoard.c...
+HWModule\VGMBoard.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling main.cpp...
+Users\main.cpp(2): error:  #5: cannot open source input file "uart.h": No such file or directory
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(2): error:  #5: cannot open source input file "uart.h": No such file or directory
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(13): error:  #20: identifier "D0" is undefined
+Users\main.cpp(43): error:  #165: too few arguments in function call
+Users\main.cpp(45): error:  #65: expected a ";"
+Users\main.cpp(46): error:  #254: type name is not allowed
+Users\main.cpp(46): error:  #20: identifier "fmt" is undefined
+Users\main.cpp(46): error:  #29: expected an expression
+Users\main.cpp(85): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(86): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(87): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(88): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(89): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(90): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(91): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(92): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(93): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(106): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(107): error:  #70: incomplete type is not allowed
+Users\main.cpp(108): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(113): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(114): error:  #70: incomplete type is not allowed
+Users\main.cpp(123): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(138): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(139): error:  #70: incomplete type is not allowed
+Users\main.cpp(140): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(147): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(153): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(157): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(158): error:  #70: incomplete type is not allowed
+Users\main.cpp(194): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(41): error:  #165: too few arguments in function call
+Users\main.cpp(43): error:  #65: expected a ";"
+Users\main.cpp(44): error:  #254: type name is not allowed
+Users\main.cpp(44): error:  #20: identifier "fmt" is undefined
+Users\main.cpp(44): error:  #29: expected an expression
+Users\main.cpp(83): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(84): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(85): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(86): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(87): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(88): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(89): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(90): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(91): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(104): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(105): error:  #70: incomplete type is not allowed
+Users\main.cpp(106): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(111): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(112): error:  #70: incomplete type is not allowed
+Users\main.cpp(121): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(136): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(137): error:  #70: incomplete type is not allowed
+Users\main.cpp(138): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(145): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(151): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(155): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(156): error:  #70: incomplete type is not allowed
+Users\main.cpp(192): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(80): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(81): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(82): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(83): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(84): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(85): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(86): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(87): error:  #55-D: too many arguments in invocation of macro "IO_READ"
+Users\main.cpp(88): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(101): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(102): error:  #70: incomplete type is not allowed
+Users\main.cpp(103): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(108): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(109): error:  #70: incomplete type is not allowed
+Users\main.cpp(118): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(133): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(134): error:  #70: incomplete type is not allowed
+Users\main.cpp(135): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(142): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(148): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(152): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(153): error:  #70: incomplete type is not allowed
+Users\main.cpp(189): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(89): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(102): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(103): error:  #70: incomplete type is not allowed
+Users\main.cpp(104): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(109): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(110): error:  #70: incomplete type is not allowed
+Users\main.cpp(119): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(134): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(135): error:  #70: incomplete type is not allowed
+Users\main.cpp(136): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(143): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(149): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(153): error:  #109: expression must have (pointer-to-) function type
+Users\main.cpp(154): error:  #70: incomplete type is not allowed
+Users\main.cpp(190): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(89): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(104): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(119): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(136): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(143): error:  #20: identifier "delay_us" is undefined
+Users\main.cpp(149): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(190): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(191): warning:  #1-D: last line of file ends without a newline
+linking...
+.\Obj\project.axf: Error: L6218E: Undefined symbol TIM3_IT_Update_CallBack (referred from stm32f10x_it.o).
+Target not created
+Build target 'project'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\STM32\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\STM32\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(167): warning:  #111-D: statement is unreachable
+Users\main.cpp(192): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=13992 RO-data=1000 RW-data=44 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 4 Warning(s).
+Load "E:\\Project\\STM32\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(166): error:  #120: return value type does not match the function type
+Users\main.cpp(167): warning:  #111-D: statement is unreachable
+Users\main.cpp(197): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(166): error:  #120: return value type does not match the function type
+Users\main.cpp(167): warning:  #111-D: statement is unreachable
+Users\main.cpp(199): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(198): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=14040 RO-data=1000 RW-data=44 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 3 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(197): error:  #20: identifier "testVGAEEprom" is undefined
+Users\main.cpp(200): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
+Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
+Users\main.cpp(204): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=14044 RO-data=1000 RW-data=44 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 3 Warning(s).

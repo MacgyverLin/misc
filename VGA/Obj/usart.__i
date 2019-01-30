@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users 
+-I E:\Keil\ARM\RV31\INC 
+-I E:\Keil\ARM\CMSIS\Include 
+-I E:\Keil\ARM\Inc\ST\STM32F10x 
+-DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\usart.o" --omf_browse ".\Obj\usart.crf" --depend ".\Obj\usart.d" "HAL\usart.c"
