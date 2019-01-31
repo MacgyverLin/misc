@@ -1,5 +1,5 @@
 .\Obj\main.o: Users\main.cpp
-.\Obj\main.o: ./HAL/io.h
+.\Obj\main.o: ./HAL/usart.h
 .\Obj\main.o: ./CMSIS/stm32f10x.h
 .\Obj\main.o: ./CMSIS/core_cm3.h
 .\Obj\main.o: E:\Keil\ARM\ARMCC\bin\..\include\stdint.h
@@ -9,5 +9,7 @@
 .\Obj\main.o: ./CMSIS/stm32f10x.h
 .\Obj\main.o: ./Drivers/inc/stm32f10x_rcc.h
 .\Obj\main.o: ./Drivers/inc/misc.h
-.\Obj\main.o: ./HAL/usart.h
 .\Obj\main.o: ./HAL/delay.h
+.\Obj\main.o: E:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\Obj\main.o: E:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\Obj\main.o: ./HAL/timer.h

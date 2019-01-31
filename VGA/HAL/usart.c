@@ -1,8 +1,5 @@
 #include <usart.h>
 #include <stdarg.h>
-//#include <stdlib.h>
-//#include <string.h>
-//#include <stdio.h>
 #include <stm32f10x_usart.h>
 
 #define USART1_REC_LEN 256

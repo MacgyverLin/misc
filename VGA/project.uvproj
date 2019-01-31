@@ -471,6 +471,11 @@
               <FileType>1</FileType>
               <FilePath>.\HAL\usart.c</FilePath>
             </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HAL\timer.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -480,6 +485,11 @@
               <FileName>stm32f10x_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Users\stm32f10x_it.c</FilePath>
+            </File>
+            <File>
+              <FileName>VGA.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HWModule\VGA.c</FilePath>
             </File>
           </Files>
         </Group>

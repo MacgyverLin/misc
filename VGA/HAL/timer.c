@@ -3,25 +3,80 @@
 #include <stm32f10x_gpio.h>
 #include <misc.h>
 
-void (*updateCallBack)(void) = 0;
-
-int TIM3_IT_Update_CallBack_Interval;
+void (*timer3UpdateCallBack)(void) = 0;
 void TIM3_IT_Update_CallBack(void)
 {
-	if(updateCallBack)
+	if(timer3UpdateCallBack)
 	{
-		updateCallBack();
+		timer3UpdateCallBack();
 	}
 }
 
-void TIMER_Initialize(u16 arr, u16 psc, void (*updateCallBack_)(void))
+void TIM3_IRQHandler( void )
+{
+	//if(TIM_GetITStatus(TIM3, TIM_IT_Update)!=RESET)
+	{
+	if(GPIOA->ODR & GPIO_Pin_5)
+	{
+		GPIOA->BRR = GPIO_Pin_5;
+	}
+	else
+	{
+		GPIOA->BSRR = GPIO_Pin_5;
+	}	
+/*	
+		if(timer3UpdateCallBack)
+		{
+			timer3UpdateCallBack();
+		}
+	*/
+	TIM3->SR = (uint16_t)~TIM_IT_Update;
+		//TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
+	}	
+}
+
+void (*timer3CC1CallBack)(void) = 0;
+void TIM3_IT_CC1_CallBack(void)
+{
+	if(timer3CC1CallBack)
+	{
+		timer3CC1CallBack();
+	}
+}
+
+void (*timer3CC2CallBack)(void) = 0;
+void TIM3_IT_CC2_CallBack(void)
+{
+	if(timer3CC2CallBack)
+	{
+		timer3CC2CallBack();
+	}
+}
+
+void (*timer3CC3CallBack)(void) = 0;
+void TIM3_IT_CC3_CallBack(void)
+{
+	if(timer3CC3CallBack)
+	{
+		timer3CC3CallBack();
+	}
+}
+
+void (*timer3CC4CallBack)(void) = 0;
+void TIM3_IT_CC4_CallBack(void)
+{
+	if(timer3CC4CallBack)
+	{
+		timer3CC4CallBack();
+	}
+}
+
+void TIMER_Initialize(u16 arr, u16 psc)
 {
     TIM_TimeBaseInitTypeDef     TIM_TimeBaseInitStructure;
 	NVIC_InitTypeDef 			NVIC_InitStructure;	
 	
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3,  ENABLE);
-    TIM_ITConfig(TIM3, TIM_IT_Update, DISABLE);	
-	//TIM_ITConfig(TIM3, TIM_IT_CC3, DISABLE);	
 	
     TIM_TimeBaseInitStructure.TIM_Period	    = arr;
     TIM_TimeBaseInitStructure.TIM_Prescaler	    = psc;
@@ -33,14 +88,7 @@ void TIMER_Initialize(u16 arr, u16 psc, void (*updateCallBack_)(void))
 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority = 1;
 	NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-	NVIC_Init(&NVIC_InitStructure);	
-
-	updateCallBack = updateCallBack_;
-	
-	TIM_ClearFlag(TIM3, TIM_FLAG_Update);
-	TIM_ITConfig(TIM3, TIM_IT_Update, ENABLE);
-	//TIM_ClearFlag(TIM3, TIM_FLAG_CC3);
-	//TIM_ITConfig(TIM3, TIM_IT_CC3, ENABLE);
+	NVIC_Init(&NVIC_InitStructure);
 }
 
 void TIMER_Start()
@@ -120,6 +168,95 @@ void TIMER_PWM_Initialize(u32 channel)
 		TIM_OC4Init(TIM3, &TIM_OCInitStructure);
 		TIM_OC4PreloadConfig(TIM3, TIM_OCPreload_Enable);
 	}	
+}
+
+void TIMER_SetCallBack(u32 channel, void (*cb)(void))
+{
+	switch(channel)
+	{
+		default:
+		case 0:
+			if(cb)
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_Update);
+				TIM_ITConfig(TIM3, TIM_IT_Update, ENABLE);
+		
+				timer3UpdateCallBack = cb;
+			}
+			else
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_Update);
+				TIM_ITConfig(TIM3, TIM_IT_Update, DISABLE);
+				
+				timer3UpdateCallBack = 0;
+			}
+		break;
+			
+		case 1:
+			if(cb)
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_CC1);
+				TIM_ITConfig(TIM3, TIM_IT_CC1, ENABLE);
+		
+				timer3CC1CallBack = cb;
+			}
+			else
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_CC1);
+				TIM_ITConfig(TIM3, TIM_IT_CC1, DISABLE);
+				
+				timer3CC1CallBack = 0;
+			}
+		break;
+		case 2:
+			if(cb)
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_CC2);
+				TIM_ITConfig(TIM3, TIM_IT_CC2, ENABLE);
+		
+				timer3CC2CallBack = cb;
+			}
+			else
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_CC2);
+				TIM_ITConfig(TIM3, TIM_IT_CC2, DISABLE);
+				
+				timer3CC2CallBack = 0;
+			}
+		break;
+		case 3:
+			if(cb)
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_CC3);
+				TIM_ITConfig(TIM3, TIM_IT_CC3, ENABLE);
+		
+				timer3CC3CallBack = cb;
+			}
+			else
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_CC3);
+				TIM_ITConfig(TIM3, TIM_IT_CC3, DISABLE);
+				
+				timer3CC3CallBack = 0;
+			}		
+		break;
+		case 4:
+			if(cb)
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_CC4);
+				TIM_ITConfig(TIM3, TIM_IT_CC4, ENABLE);
+		
+				timer3CC4CallBack = cb;
+			}
+			else
+			{
+				TIM_ClearFlag(TIM3, TIM_FLAG_CC4);
+				TIM_ITConfig(TIM3, TIM_IT_CC4, DISABLE);
+				
+				timer3CC4CallBack = 0;
+			}				
+		break;
+	};
 }
 
 void TIMER_PWM_SetDuty(u32 channel, u32 ccr)

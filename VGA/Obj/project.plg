@@ -3,10 +3,225 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-E:\Project\STM32\project.uvproj
+E:\Project\misc\VGA\project.uvproj
 Project File Date:  01/30/2019
 
 <h2>Output:</h2>
+Build target 'project'
+compiling usart.c...
+HAL\usart.c(42): warning:  #223-D: function "TIM_ClearFlag" declared implicitly
+HAL\usart.c(44): warning:  #223-D: function "TIM_ITConfig" declared implicitly
+HAL\usart.c(57): warning:  #223-D: function "vsnprintf" declared implicitly
+HAL\usart.c(58): warning:  #223-D: function "strlen" declared implicitly
+HAL\usart.c(100): warning:  #550-D: variable "a" was set but never used
+compiling main.cpp...
+linking...
+Program Size: Code=12904 RO-data=1000 RW-data=40 ZI-data=8288  
+".\Obj\project.axf" - 0 Error(s), 5 Warning(s).
+Build target 'project'
+compiling timer.c...
+HAL\timer.h(18): warning:  #1295-D: Deprecated declaration TIMER_Test - give arg types
+HAL\timer.c(152): warning:  #223-D: function "delay_ms" declared implicitly
+HAL\timer.c(165): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=12904 RO-data=1000 RW-data=40 ZI-data=8288  
+".\Obj\project.axf" - 0 Error(s), 3 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=12904 RO-data=1000 RW-data=40 ZI-data=8288  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling VGA.c...
+linking...
+Program Size: Code=12904 RO-data=1000 RW-data=40 ZI-data=8288  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling VGA.c...
+compiling main.cpp...
+linking...
+Program Size: Code=12644 RO-data=784 RW-data=40 ZI-data=8288  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=12644 RO-data=784 RW-data=40 ZI-data=8288  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(67): error:  #20: identifier "malloc" is undefined
+Users\main.cpp(69): error:  #20: identifier "TIMER_Initialize" is undefined
+Users\main.cpp(82): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 81)
+Users\main.cpp(85): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 82)
+Users\main.cpp(86): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 85)
+Users\main.cpp(89): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 86)
+Users\main.cpp(90): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 89)
+Users\main.cpp(94): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 93)
+Users\main.cpp(101): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 94)
+Users\main.cpp(102): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 101)
+Users\main.cpp(105): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 102)
+Users\main.cpp(106): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 105)
+Users\main.cpp(109): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 106)
+Users\main.cpp(110): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 109)
+Users\main.cpp(114): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 113)
+Users\main.cpp(116): error:  #65: expected a ";"
+Users\main.cpp(99): warning:  #177-D: variable "pos" was declared but never referenced
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(70): error:  #513: a value of type "void *" cannot be assigned to an entity of type "u8 *"
+Users\main.cpp(72): error:  #20: identifier "TIMER_Initialize" is undefined
+Users\main.cpp(85): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 84)
+Users\main.cpp(88): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 85)
+Users\main.cpp(89): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 88)
+Users\main.cpp(92): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 89)
+Users\main.cpp(93): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 92)
+Users\main.cpp(97): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 96)
+Users\main.cpp(104): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 97)
+Users\main.cpp(105): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 104)
+Users\main.cpp(108): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 105)
+Users\main.cpp(109): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 108)
+Users\main.cpp(112): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 109)
+Users\main.cpp(113): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 112)
+Users\main.cpp(117): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 116)
+Users\main.cpp(119): error:  #65: expected a ";"
+Users\main.cpp(102): warning:  #177-D: variable "pos" was declared but never referenced
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(72): error:  #20: identifier "TIMER_Initialize" is undefined
+Users\main.cpp(85): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 84)
+Users\main.cpp(88): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 85)
+Users\main.cpp(89): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 88)
+Users\main.cpp(92): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 89)
+Users\main.cpp(93): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 92)
+Users\main.cpp(97): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 96)
+Users\main.cpp(104): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 97)
+Users\main.cpp(105): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 104)
+Users\main.cpp(108): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 105)
+Users\main.cpp(109): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 108)
+Users\main.cpp(112): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 109)
+Users\main.cpp(113): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 112)
+Users\main.cpp(117): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 116)
+Users\main.cpp(119): error:  #65: expected a ";"
+Users\main.cpp(102): warning:  #177-D: variable "pos" was declared but never referenced
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(84): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 83)
+Users\main.cpp(87): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 84)
+Users\main.cpp(88): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 87)
+Users\main.cpp(91): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 88)
+Users\main.cpp(92): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 91)
+Users\main.cpp(96): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 95)
+Users\main.cpp(103): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 96)
+Users\main.cpp(104): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 103)
+Users\main.cpp(107): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 104)
+Users\main.cpp(108): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 107)
+Users\main.cpp(111): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 108)
+Users\main.cpp(112): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 111)
+Users\main.cpp(116): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 115)
+Users\main.cpp(118): error:  #65: expected a ";"
+Users\main.cpp(101): warning:  #177-D: variable "pos" was declared but never referenced
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(84): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 83)
+Users\main.cpp(87): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 84)
+Users\main.cpp(88): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 87)
+Users\main.cpp(91): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 88)
+Users\main.cpp(92): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 91)
+Users\main.cpp(96): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 95)
+Users\main.cpp(101): warning:  #177-D: variable "pos" was declared but never referenced
+linking...
+Program Size: Code=13904 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 7 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(87): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 83)
+Users\main.cpp(88): warning:  #47-D: incompatible redefinition of macro "SCREEN_HEIGHT" (declared at line 84)
+Users\main.cpp(91): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 87)
+Users\main.cpp(92): warning:  #47-D: incompatible redefinition of macro "SCREEN_HEIGHT" (declared at line 88)
+Users\main.cpp(95): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 91)
+Users\main.cpp(96): warning:  #47-D: incompatible redefinition of macro "SCREEN_HEIGHT" (declared at line 92)
+Users\main.cpp(101): warning:  #177-D: variable "pos" was declared but never referenced
+linking...
+Program Size: Code=13904 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 7 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(100): warning:  #177-D: variable "pos" was declared but never referenced
+linking...
+Program Size: Code=13904 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(85): error:  #36: the #if for this directive is missing
+Users\main.cpp(86): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 82)
+Users\main.cpp(87): warning:  #47-D: incompatible redefinition of macro "SCREEN_HEIGHT" (declared at line 83)
+Users\main.cpp(88): error:  #36: the #if for this directive is missing
+Users\main.cpp(89): error:  #36: the #if for this directive is missing
+Users\main.cpp(90): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 86)
+Users\main.cpp(91): warning:  #47-D: incompatible redefinition of macro "SCREEN_HEIGHT" (declared at line 87)
+Users\main.cpp(92): error:  #36: the #if for this directive is missing
+Users\main.cpp(93): error:  #36: the #if for this directive is missing
+Users\main.cpp(94): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 90)
+Users\main.cpp(95): warning:  #47-D: incompatible redefinition of macro "SCREEN_HEIGHT" (declared at line 91)
+Users\main.cpp(96): error:  #36: the #if for this directive is missing
+Users\main.cpp(108): error:  #36: the #if for this directive is missing
+Users\main.cpp(109): error:  #36: the #if for this directive is missing
+Users\main.cpp(110): error:  #36: the #if for this directive is missing
+Users\main.cpp(111): error:  #36: the #if for this directive is missing
+Users\main.cpp(112): error:  #36: the #if for this directive is missing
+Users\main.cpp(113): error:  #36: the #if for this directive is missing
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(88): error:  #36: the #if for this directive is missing
+Users\main.cpp(89): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 82)
+Users\main.cpp(90): warning:  #47-D: incompatible redefinition of macro "SCREEN_HEIGHT" (declared at line 83)
+Users\main.cpp(91): error:  #36: the #if for this directive is missing
+Users\main.cpp(92): error:  #36: the #if for this directive is missing
+Users\main.cpp(93): warning:  #47-D: incompatible redefinition of macro "SCREEN_WIDTH" (declared at line 89)
+Users\main.cpp(94): warning:  #47-D: incompatible redefinition of macro "SCREEN_HEIGHT" (declared at line 90)
+Users\main.cpp(95): error:  #36: the #if for this directive is missing
+Users\main.cpp(108): error:  #36: the #if for this directive is missing
+Users\main.cpp(109): error:  #36: the #if for this directive is missing
+Users\main.cpp(110): error:  #36: the #if for this directive is missing
+Users\main.cpp(111): error:  #36: the #if for this directive is missing
+Target not created
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=13936 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=13936 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=13980 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=13968 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=13968 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=13972 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Clean started: Project: 'project'
+   deleting intermediate output files for target 'project'
 Build target 'project'
 compiling system_stm32f10x.c...
 compiling core_cm3.c...
@@ -19,243 +234,1460 @@ compiling stm32f10x_tim.c...
 compiling stm32f10x_dma.c...
 assembling startup_stm32f10x_md.s...
 compiling delay.c...
-HAL\delay.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
 compiling io.c...
 compiling usart.c...
-HAL\usart.c(53): warning:  #223-D: function "vsnprintf" declared implicitly
-HAL\usart.c(54): warning:  #223-D: function "strlen" declared implicitly
-HAL\usart.c(96): warning:  #550-D: variable "a" was set but never used
+HAL\usart.c(42): warning:  #223-D: function "TIM_ClearFlag" declared implicitly
+HAL\usart.c(44): warning:  #223-D: function "TIM_ITConfig" declared implicitly
+HAL\usart.c(57): warning:  #223-D: function "vsnprintf" declared implicitly
+HAL\usart.c(58): warning:  #223-D: function "strlen" declared implicitly
+HAL\usart.c(100): warning:  #550-D: variable "a" was set but never used
+compiling timer.c...
+HAL\timer.h(18): warning:  #1295-D: Deprecated declaration TIMER_Test - give arg types
+HAL\timer.c(152): warning:  #223-D: function "delay_ms" declared implicitly
+HAL\timer.c(165): warning:  #1-D: last line of file ends without a newline
 compiling stm32f10x_it.c...
-compiling mmc_sd.c...
-HWModule\mmc_sd.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
-compiling VGMBoard.c...
-HWModule\VGMBoard.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+Users\stm32f10x_it.c(201): warning:  #1-D: last line of file ends without a newline
+compiling VGA.c...
 compiling main.cpp...
-Users\main.cpp(2): error:  #5: cannot open source input file "uart.h": No such file or directory
+linking...
+Program Size: Code=13972 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 9 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=13972 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=13972 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=13972 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(170): warning:  #223-D: function "TIM3_IT_Update_CallBack" declared implicitly
+Users\stm32f10x_it.c(201): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=13980 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Build target 'project'
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(207): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=13980 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling stm32f10x_it.c...
+compiling main.cpp...
+Users\main.cpp(70): error:  #20: identifier "memset" is undefined
+Target not created
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+StartUp\startup_stm32f10x_md.s(289): error: A1163E: Unknown opcode asd , expecting opcode or Macro
 Target not created
 Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+.\Obj\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching libspace.o(.bss).
+.\Obj\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching system_stm32f10x.o(.data).
+.\Obj\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching stm32f10x_rcc.o(.data).
+.\Obj\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching delay.o(.data).
+.\Obj\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching timer.o(.data).
+.\Obj\project.axf: Error: L6406E: No space in execution regions with .ANY selector matching main.o(.data).
+.\Obj\project.axf: Error: L6407E: Sections of aggregate size 0x94 bytes could not fit into .ANY selector(s).
+Target not created
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=12388  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14132 RO-data=792 RW-data=52 ZI-data=4196  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14132 RO-data=792 RW-data=52 ZI-data=4196  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+assembling startup_stm32f10x_md.s...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=8292  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'project'
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_dma.c...
+assembling startup_stm32f10x_md.s...
 compiling delay.c...
-HAL\delay.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+compiling io.c...
 compiling usart.c...
-HAL\usart.c(45): warning:  #223-D: function "TIM_ClearFlag" declared implicitly
-HAL\usart.c(47): warning:  #223-D: function "TIM_ITConfig" declared implicitly
-HAL\usart.c(60): warning:  #223-D: function "vsnprintf" declared implicitly
-HAL\usart.c(61): warning:  #223-D: function "strlen" declared implicitly
-HAL\usart.c(103): warning:  #550-D: variable "a" was set but never used
-compiling mmc_sd.c...
-HWModule\mmc_sd.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
-compiling VGMBoard.c...
-HWModule\VGMBoard.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
+HAL\usart.c(42): warning:  #223-D: function "TIM_ClearFlag" declared implicitly
+HAL\usart.c(44): warning:  #223-D: function "TIM_ITConfig" declared implicitly
+HAL\usart.c(57): warning:  #223-D: function "vsnprintf" declared implicitly
+HAL\usart.c(58): warning:  #223-D: function "strlen" declared implicitly
+HAL\usart.c(100): warning:  #550-D: variable "a" was set but never used
+compiling timer.c...
+HAL\timer.h(18): warning:  #1295-D: Deprecated declaration TIMER_Test - give arg types
+HAL\timer.c(152): warning:  #223-D: function "delay_ms" declared implicitly
+HAL\timer.c(165): warning:  #1-D: last line of file ends without a newline
+compiling stm32f10x_it.c...
+compiling VGA.c...
 compiling main.cpp...
-Users\main.cpp(2): error:  #5: cannot open source input file "uart.h": No such file or directory
-Target not created
-Build target 'project'
-compiling delay.c...
-compiling mmc_sd.c...
-HWModule\mmc_sd.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
-compiling VGMBoard.c...
-HWModule\VGMBoard.h(4): error:  #5: cannot open source input file "vgmdef.h": No such file or directory
-compiling main.cpp...
-Users\main.cpp(2): error:  #5: cannot open source input file "uart.h": No such file or directory
-Target not created
-Build target 'project'
-compiling main.cpp...
-Users\main.cpp(2): error:  #5: cannot open source input file "uart.h": No such file or directory
-Target not created
-Build target 'project'
-compiling main.cpp...
-Users\main.cpp(13): error:  #20: identifier "D0" is undefined
-Users\main.cpp(43): error:  #165: too few arguments in function call
-Users\main.cpp(45): error:  #65: expected a ";"
-Users\main.cpp(46): error:  #254: type name is not allowed
-Users\main.cpp(46): error:  #20: identifier "fmt" is undefined
-Users\main.cpp(46): error:  #29: expected an expression
-Users\main.cpp(85): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(86): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(87): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(88): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(89): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(90): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(91): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(92): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(93): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(106): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(107): error:  #70: incomplete type is not allowed
-Users\main.cpp(108): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(113): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(114): error:  #70: incomplete type is not allowed
-Users\main.cpp(123): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(138): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(139): error:  #70: incomplete type is not allowed
-Users\main.cpp(140): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(147): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(153): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(157): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(158): error:  #70: incomplete type is not allowed
-Users\main.cpp(194): warning:  #1-D: last line of file ends without a newline
-Target not created
-Build target 'project'
-compiling main.cpp...
-Users\main.cpp(41): error:  #165: too few arguments in function call
-Users\main.cpp(43): error:  #65: expected a ";"
-Users\main.cpp(44): error:  #254: type name is not allowed
-Users\main.cpp(44): error:  #20: identifier "fmt" is undefined
-Users\main.cpp(44): error:  #29: expected an expression
-Users\main.cpp(83): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(84): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(85): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(86): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(87): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(88): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(89): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(90): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(91): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(104): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(105): error:  #70: incomplete type is not allowed
-Users\main.cpp(106): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(111): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(112): error:  #70: incomplete type is not allowed
-Users\main.cpp(121): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(136): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(137): error:  #70: incomplete type is not allowed
-Users\main.cpp(138): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(145): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(151): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(155): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(156): error:  #70: incomplete type is not allowed
-Users\main.cpp(192): warning:  #1-D: last line of file ends without a newline
-Target not created
-Build target 'project'
-compiling main.cpp...
-Users\main.cpp(80): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(81): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(82): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(83): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(84): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(85): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(86): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(87): error:  #55-D: too many arguments in invocation of macro "IO_READ"
-Users\main.cpp(88): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(101): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(102): error:  #70: incomplete type is not allowed
-Users\main.cpp(103): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(108): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(109): error:  #70: incomplete type is not allowed
-Users\main.cpp(118): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(133): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(134): error:  #70: incomplete type is not allowed
-Users\main.cpp(135): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(142): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(148): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(152): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(153): error:  #70: incomplete type is not allowed
-Users\main.cpp(189): warning:  #1-D: last line of file ends without a newline
-Target not created
-Build target 'project'
-compiling main.cpp...
-Users\main.cpp(89): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(102): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(103): error:  #70: incomplete type is not allowed
-Users\main.cpp(104): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(109): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(110): error:  #70: incomplete type is not allowed
-Users\main.cpp(119): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(134): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(135): error:  #70: incomplete type is not allowed
-Users\main.cpp(136): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(143): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(149): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(153): error:  #109: expression must have (pointer-to-) function type
-Users\main.cpp(154): error:  #70: incomplete type is not allowed
-Users\main.cpp(190): warning:  #1-D: last line of file ends without a newline
-Target not created
-Build target 'project'
-compiling main.cpp...
-Users\main.cpp(89): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(104): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(119): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(136): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(143): error:  #20: identifier "delay_us" is undefined
-Users\main.cpp(149): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(190): warning:  #1-D: last line of file ends without a newline
-Target not created
-Build target 'project'
-compiling main.cpp...
-Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(191): warning:  #1-D: last line of file ends without a newline
 linking...
-.\Obj\project.axf: Error: L6218E: Undefined symbol TIM3_IT_Update_CallBack (referred from stm32f10x_it.o).
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 8 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14136 RO-data=792 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(91): error:  #247: variable "buffer" has already been defined
+Users\main.cpp(99): error:  #20: identifier "R" is undefined
+Users\main.cpp(100): error:  #20: identifier "G" is undefined
+Users\main.cpp(101): error:  #20: identifier "B" is undefined
+Users\main.cpp(105): error:  #20: identifier "R" is undefined
+Users\main.cpp(106): error:  #20: identifier "G" is undefined
+Users\main.cpp(107): error:  #20: identifier "B" is undefined
 Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(98): error:  #20: identifier "R" is undefined
+Users\main.cpp(99): error:  #20: identifier "G" is undefined
+Users\main.cpp(100): error:  #20: identifier "B" is undefined
+Users\main.cpp(104): error:  #20: identifier "R" is undefined
+Users\main.cpp(105): error:  #20: identifier "G" is undefined
+Users\main.cpp(106): error:  #20: identifier "B" is undefined
+Target not created
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14184 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14224 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14224 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14232 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14232 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14228 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(81): warning:  #47-D: incompatible redefinition of macro "FRAME_BUFFER_SIZE" (declared at line 77)
+linking...
+Program Size: Code=14228 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(81): warning:  #47-D: incompatible redefinition of macro "FRAME_BUFFER_SIZE" (declared at line 77)
+Users\main.cpp(102): error:  #40: expected an identifier
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(101): error:  #40: expected an identifier
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(101): error:  #40: expected an identifier
+Users\main.cpp(105): error:  #757: variable "HSyncState" is not a type name
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(101): error:  #40: expected an identifier
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(101): error:  #40: expected an identifier
+Target not created
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14184 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14184 RO-data=792 RW-data=56 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling timer.c...
+HAL\timer.h(18): warning:  #1295-D: Deprecated declaration TIMER_Test - give arg types
+HAL\timer.c(152): warning:  #223-D: function "delay_ms" declared implicitly
+HAL\timer.c(165): warning:  #1-D: last line of file ends without a newline
+compiling stm32f10x_it.c...
+compiling main.cpp...
+Users\main.cpp(188): error:  #20: identifier "hSyncState" is undefined
+Users\main.cpp(188): error:  #20: identifier "SYNC" is undefined
+Target not created
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(51): error:  #147-D: declaration is incompatible with "void TIMER_Initialize(u16, u16, void (*)(void))" (declared at line 11 of "HAL\timer.h")
+HAL\timer.c(204): warning:  #223-D: function "delay_ms" declared implicitly
+HAL\timer.c(217): warning:  #1-D: last line of file ends without a newline
+compiling main.cpp...
+Target not created
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(204): warning:  #223-D: function "delay_ms" declared implicitly
+HAL\timer.c(217): warning:  #1-D: last line of file ends without a newline
+compiling main.cpp...
+Users\main.cpp(190): error:  #140: too many arguments in function call
+Target not created
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(249): warning:  #223-D: function "delay_ms" declared implicitly
+HAL\timer.c(262): warning:  #1-D: last line of file ends without a newline
+compiling main.cpp...
+Users\main.cpp(190): error:  #140: too many arguments in function call
+Target not created
+Build target 'project'
+compiling main.cpp...
+linking...
+Program Size: Code=14512 RO-data=792 RW-data=72 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(34): error:  #20: identifier "HSYNC" is undefined
+Users\main.cpp(35): error:  #20: identifier "VSYNC" is undefined
+Users\main.cpp(36): error:  #20: identifier "RED" is undefined
+Users\main.cpp(37): error:  #20: identifier "GREEN" is undefined
+Users\main.cpp(38): error:  #20: identifier "BLUE" is undefined
+Users\main.cpp(107): error:  #40: expected an identifier
+Users\main.cpp(111): error:  #40: expected an identifier
+Users\main.cpp(118): error:  #20: identifier "SyncState" is undefined
+Users\main.cpp(125): error:  #144: a value of type "void *" cannot be used to initialize an entity of type "VGA *"
+Users\main.cpp(130): error:  #513: a value of type "void *" cannot be assigned to an entity of type "u8 *"
+Users\main.cpp(147): error:  #20: identifier "updateCallBack" is undefined
+Users\main.cpp(149): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(172): error:  #20: identifier "state" is undefined
+Users\main.cpp(175): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(177): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(182): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(184): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(188): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(190): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(194): error:  #20: identifier "count" is undefined
+Users\main.cpp(195): error:  #53: expected a ":"
+Users\main.cpp(195): error:  #29: expected an expression
+Users\main.cpp(196): error:  #53: expected a ":"
+Users\main.cpp(196): error:  #29: expected an expression
+Users\main.cpp(197): error:  #53: expected a ":"
+Users\main.cpp(197): error:  #29: expected an expression
+Users\main.cpp(201): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(203): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(207): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(208): error:  #65: expected a ";"
+Users\main.cpp(214): error:  #20: identifier "vgaState" is undefined
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(101): error:  #40: expected an identifier
+Users\main.cpp(105): error:  #40: expected an identifier
+Users\main.cpp(112): error:  #20: identifier "SyncState" is undefined
+Users\main.cpp(119): error:  #144: a value of type "void *" cannot be used to initialize an entity of type "VGA *"
+Users\main.cpp(124): error:  #513: a value of type "void *" cannot be assigned to an entity of type "u8 *"
+Users\main.cpp(138): error:  #20: identifier "GPIO_InitStructure" is undefined
+Users\main.cpp(150): error:  #20: identifier "updateCallBack" is undefined
+Users\main.cpp(152): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(175): error:  #20: identifier "state" is undefined
+Users\main.cpp(178): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(180): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(185): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(187): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(191): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(193): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(197): error:  #20: identifier "count" is undefined
+Users\main.cpp(198): error:  #53: expected a ":"
+Users\main.cpp(198): error:  #29: expected an expression
+Users\main.cpp(199): error:  #53: expected a ":"
+Users\main.cpp(199): error:  #29: expected an expression
+Users\main.cpp(200): error:  #53: expected a ":"
+Users\main.cpp(200): error:  #29: expected an expression
+Users\main.cpp(204): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(206): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(210): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(211): error:  #65: expected a ";"
+Users\main.cpp(217): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(222): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(232): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(236): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(244): error:  #135: class "VGA" has no member "count"
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(112): error:  #20: identifier "SyncState" is undefined
+Users\main.cpp(119): error:  #144: a value of type "void *" cannot be used to initialize an entity of type "VGA *"
+Users\main.cpp(124): error:  #513: a value of type "void *" cannot be assigned to an entity of type "u8 *"
+Users\main.cpp(138): error:  #20: identifier "GPIO_InitStructure" is undefined
+Users\main.cpp(150): error:  #20: identifier "updateCallBack" is undefined
+Users\main.cpp(152): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(175): error:  #20: identifier "state" is undefined
+Users\main.cpp(178): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(180): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(185): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(187): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(191): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(193): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(197): error:  #20: identifier "count" is undefined
+Users\main.cpp(198): error:  #53: expected a ":"
+Users\main.cpp(198): error:  #29: expected an expression
+Users\main.cpp(199): error:  #53: expected a ":"
+Users\main.cpp(199): error:  #29: expected an expression
+Users\main.cpp(200): error:  #53: expected a ":"
+Users\main.cpp(200): error:  #29: expected an expression
+Users\main.cpp(204): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(206): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(210): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(211): error:  #65: expected a ";"
+Users\main.cpp(217): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(222): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(232): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(236): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(244): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(248): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(272): error:  #20: identifier "state" is undefined
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(119): error:  #144: a value of type "void *" cannot be used to initialize an entity of type "VGA *"
+Users\main.cpp(124): error:  #513: a value of type "void *" cannot be assigned to an entity of type "u8 *"
+Users\main.cpp(138): error:  #20: identifier "GPIO_InitStructure" is undefined
+Users\main.cpp(150): error:  #20: identifier "updateCallBack" is undefined
+Users\main.cpp(152): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(175): error:  #20: identifier "state" is undefined
+Users\main.cpp(178): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(180): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(185): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(187): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(191): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(193): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(197): error:  #20: identifier "count" is undefined
+Users\main.cpp(198): error:  #53: expected a ":"
+Users\main.cpp(198): error:  #29: expected an expression
+Users\main.cpp(199): error:  #53: expected a ":"
+Users\main.cpp(199): error:  #29: expected an expression
+Users\main.cpp(200): error:  #53: expected a ":"
+Users\main.cpp(200): error:  #29: expected an expression
+Users\main.cpp(204): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(206): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(210): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(211): error:  #65: expected a ";"
+Users\main.cpp(217): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(222): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(223): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(232): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(236): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(244): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(248): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(272): error:  #20: identifier "state" is undefined
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(124): error:  #513: a value of type "void *" cannot be assigned to an entity of type "u8 *"
+Users\main.cpp(138): error:  #20: identifier "GPIO_InitStructure" is undefined
+Users\main.cpp(150): error:  #20: identifier "updateCallBack" is undefined
+Users\main.cpp(152): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(175): error:  #20: identifier "state" is undefined
+Users\main.cpp(178): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(180): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(185): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(187): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(191): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(193): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(197): error:  #20: identifier "count" is undefined
+Users\main.cpp(198): error:  #53: expected a ":"
+Users\main.cpp(198): error:  #29: expected an expression
+Users\main.cpp(199): error:  #53: expected a ":"
+Users\main.cpp(199): error:  #29: expected an expression
+Users\main.cpp(200): error:  #53: expected a ":"
+Users\main.cpp(200): error:  #29: expected an expression
+Users\main.cpp(204): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(206): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(210): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(211): error:  #65: expected a ";"
+Users\main.cpp(217): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(222): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(223): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(232): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(236): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(244): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(248): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(272): error:  #20: identifier "state" is undefined
+Users\main.cpp(275): error:  #20: identifier "A0" is undefined
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(138): error:  #20: identifier "GPIO_InitStructure" is undefined
+Users\main.cpp(150): error:  #20: identifier "updateCallBack" is undefined
+Users\main.cpp(152): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(175): error:  #20: identifier "state" is undefined
+Users\main.cpp(178): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(180): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(185): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(187): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(191): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(193): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(197): error:  #20: identifier "count" is undefined
+Users\main.cpp(198): error:  #53: expected a ":"
+Users\main.cpp(198): error:  #29: expected an expression
+Users\main.cpp(199): error:  #53: expected a ":"
+Users\main.cpp(199): error:  #29: expected an expression
+Users\main.cpp(200): error:  #53: expected a ":"
+Users\main.cpp(200): error:  #29: expected an expression
+Users\main.cpp(204): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(206): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(210): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(211): error:  #65: expected a ";"
+Users\main.cpp(217): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(222): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(223): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(232): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(236): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(244): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(248): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(272): error:  #20: identifier "state" is undefined
+Users\main.cpp(275): error:  #20: identifier "A0" is undefined
+Users\main.cpp(285): error:  #20: identifier "A3" is undefined
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(152): error:  #20: identifier "updateCallBack" is undefined
+Users\main.cpp(154): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(177): error:  #20: identifier "state" is undefined
+Users\main.cpp(180): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(182): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(187): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(189): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(193): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(195): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(199): error:  #20: identifier "count" is undefined
+Users\main.cpp(200): error:  #53: expected a ":"
+Users\main.cpp(200): error:  #29: expected an expression
+Users\main.cpp(201): error:  #53: expected a ":"
+Users\main.cpp(201): error:  #29: expected an expression
+Users\main.cpp(202): error:  #53: expected a ":"
+Users\main.cpp(202): error:  #29: expected an expression
+Users\main.cpp(206): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(208): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(212): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(213): error:  #65: expected a ";"
+Users\main.cpp(219): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(224): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(225): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(234): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(238): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(246): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(250): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(274): error:  #20: identifier "state" is undefined
+Users\main.cpp(277): error:  #20: identifier "A0" is undefined
+Users\main.cpp(287): error:  #20: identifier "A3" is undefined
+Users\main.cpp(308): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(152): error:  #20: identifier "updateCallBack" is undefined
+Users\main.cpp(154): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(182): error:  #20: identifier "VGA_UpdateState" is undefined
+Users\main.cpp(189): error:  #20: identifier "state" is undefined
+Users\main.cpp(192): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(194): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(199): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(201): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(205): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(207): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(211): error:  #20: identifier "count" is undefined
+Users\main.cpp(212): error:  #53: expected a ":"
+Users\main.cpp(212): error:  #29: expected an expression
+Users\main.cpp(213): error:  #53: expected a ":"
+Users\main.cpp(213): error:  #29: expected an expression
+Users\main.cpp(214): error:  #53: expected a ":"
+Users\main.cpp(214): error:  #29: expected an expression
+Users\main.cpp(218): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(220): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(224): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(225): error:  #65: expected a ";"
+Users\main.cpp(231): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(236): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(237): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(246): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(250): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(258): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(262): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(295): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(295): error:  #165: too few arguments in function call
+Users\main.cpp(300): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(155): warning:  #940-D: missing return statement at end of non-void function "VGA_Create"
+Users\main.cpp(183): error:  #20: identifier "VGA_UpdateState" is undefined
+Users\main.cpp(190): error:  #20: identifier "state" is undefined
+Users\main.cpp(193): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(195): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(200): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(202): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(206): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(208): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(212): error:  #20: identifier "count" is undefined
+Users\main.cpp(213): error:  #53: expected a ":"
+Users\main.cpp(213): error:  #29: expected an expression
+Users\main.cpp(214): error:  #53: expected a ":"
+Users\main.cpp(214): error:  #29: expected an expression
+Users\main.cpp(215): error:  #53: expected a ":"
+Users\main.cpp(215): error:  #29: expected an expression
+Users\main.cpp(219): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(221): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(225): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(226): error:  #65: expected a ";"
+Users\main.cpp(232): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(237): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(238): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(247): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(251): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(259): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(263): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(296): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(296): error:  #165: too few arguments in function call
+Users\main.cpp(301): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(185): error:  #20: identifier "VGA_UpdateState" is undefined
+Users\main.cpp(192): error:  #20: identifier "state" is undefined
+Users\main.cpp(195): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(197): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(202): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(204): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(208): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(210): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(214): error:  #20: identifier "count" is undefined
+Users\main.cpp(215): error:  #53: expected a ":"
+Users\main.cpp(215): error:  #29: expected an expression
+Users\main.cpp(216): error:  #53: expected a ":"
+Users\main.cpp(216): error:  #29: expected an expression
+Users\main.cpp(217): error:  #53: expected a ":"
+Users\main.cpp(217): error:  #29: expected an expression
+Users\main.cpp(221): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(223): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(227): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(228): error:  #65: expected a ";"
+Users\main.cpp(234): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(239): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(240): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(249): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(253): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(261): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(265): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(298): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(298): error:  #165: too few arguments in function call
+Users\main.cpp(303): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(185): error:  #20: identifier "VGA_UpdateState" is undefined
+Users\main.cpp(192): error:  #20: identifier "state" is undefined
+Users\main.cpp(195): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(197): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(202): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(204): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(208): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(210): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(214): error:  #20: identifier "count" is undefined
+Users\main.cpp(215): error:  #53: expected a ":"
+Users\main.cpp(215): error:  #29: expected an expression
+Users\main.cpp(216): error:  #53: expected a ":"
+Users\main.cpp(216): error:  #29: expected an expression
+Users\main.cpp(217): error:  #53: expected a ":"
+Users\main.cpp(217): error:  #29: expected an expression
+Users\main.cpp(221): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(223): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(227): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(228): error:  #65: expected a ";"
+Users\main.cpp(234): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(239): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(240): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(249): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(253): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(261): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(265): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(298): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(298): error:  #165: too few arguments in function call
+Users\main.cpp(303): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(184): error:  #20: identifier "state" is undefined
+Users\main.cpp(187): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(189): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(194): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(196): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(200): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(202): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(206): error:  #20: identifier "count" is undefined
+Users\main.cpp(207): error:  #53: expected a ":"
+Users\main.cpp(207): error:  #29: expected an expression
+Users\main.cpp(208): error:  #53: expected a ":"
+Users\main.cpp(208): error:  #29: expected an expression
+Users\main.cpp(209): error:  #53: expected a ":"
+Users\main.cpp(209): error:  #29: expected an expression
+Users\main.cpp(213): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(215): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(219): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(220): error:  #65: expected a ";"
+Users\main.cpp(234): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(239): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(240): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(249): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(253): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(261): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(265): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(298): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(298): error:  #165: too few arguments in function call
+Users\main.cpp(303): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(187): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(189): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(194): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(196): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(200): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(202): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(206): error:  #20: identifier "count" is undefined
+Users\main.cpp(207): error:  #53: expected a ":"
+Users\main.cpp(207): error:  #29: expected an expression
+Users\main.cpp(208): error:  #53: expected a ":"
+Users\main.cpp(208): error:  #29: expected an expression
+Users\main.cpp(209): error:  #53: expected a ":"
+Users\main.cpp(209): error:  #29: expected an expression
+Users\main.cpp(213): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(215): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(219): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(220): error:  #65: expected a ";"
+Users\main.cpp(234): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(239): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(240): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(249): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(253): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(261): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(265): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(298): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(298): error:  #165: too few arguments in function call
+Users\main.cpp(303): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(189): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(195): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(201): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(205): error:  #20: identifier "count" is undefined
+Users\main.cpp(206): error:  #53: expected a ":"
+Users\main.cpp(206): error:  #29: expected an expression
+Users\main.cpp(207): error:  #53: expected a ":"
+Users\main.cpp(207): error:  #29: expected an expression
+Users\main.cpp(208): error:  #53: expected a ":"
+Users\main.cpp(208): error:  #29: expected an expression
+Users\main.cpp(214): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(218): error:  #20: identifier "VGA_SetState" is undefined
+Users\main.cpp(219): error:  #65: expected a ";"
+Users\main.cpp(233): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(238): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(239): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(248): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(252): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(260): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(264): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(183): error:  #20: identifier "vgaState" is undefined
+Users\main.cpp(188): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(189): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(198): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(202): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(210): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(214): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(244): error:  #20: identifier "count" is undefined
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(188): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(189): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(198): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(202): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(210): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(214): error:  #135: class "VGA" has no member "count"
+Users\main.cpp(244): error:  #20: identifier "count" is undefined
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(189): error:  #513: a value of type "std::uint16_t" cannot be assigned to an entity of type "VGAState"
+Users\main.cpp(244): error:  #20: identifier "count" is undefined
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(189): error:  #20: identifier "HSYNC_" is undefined
+Users\main.cpp(244): error:  #20: identifier "count" is undefined
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(244): error:  #20: identifier "count" is undefined
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(244): error:  #20: identifier "counter" is undefined
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(245): error:  #53: expected a ":"
+Users\main.cpp(245): error:  #29: expected an expression
+Users\main.cpp(246): error:  #53: expected a ":"
+Users\main.cpp(246): error:  #29: expected an expression
+Users\main.cpp(247): error:  #53: expected a ":"
+Users\main.cpp(247): error:  #29: expected an expression
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(257): error:  #165: too few arguments in function call
+Users\main.cpp(258): error:  #65: expected a ";"
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(297): error:  #167: argument of type "u32" is incompatible with parameter of type "VGA *"
+Users\main.cpp(297): error:  #165: too few arguments in function call
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(302): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14836 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(315): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14856 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(326): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14896 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14900 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14896 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14896 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(266): warning:  #223-D: function "delay_ms" declared implicitly
+HAL\timer.c(279): warning:  #1-D: last line of file ends without a newline
+compiling stm32f10x_it.c...
+compiling main.cpp...
+Users\main.cpp(224): warning:  #177-D: variable "test" was declared but never referenced
+Users\main.cpp(329): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14768 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 4 Warning(s).
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(266): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+Program Size: Code=14768 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(224): warning:  #177-D: variable "test" was declared but never referenced
+Users\main.cpp(329): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14768 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14888 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14904 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14904 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(323): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14888 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14904 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14904 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(235): warning:  #111-D: statement is unreachable
+Users\main.cpp(328): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14768 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(235): warning:  #111-D: statement is unreachable
+Users\main.cpp(328): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14768 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(235): warning:  #111-D: statement is unreachable
+Users\main.cpp(328): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14776 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(235): warning:  #111-D: statement is unreachable
+Users\main.cpp(224): warning:  #177-D: variable "test" was declared but never referenced
+Users\main.cpp(336): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14776 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 3 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
 Build target 'project'
 compiling stm32f10x_it.c...
 linking...
-Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
+Program Size: Code=14760 RO-data=792 RW-data=68 ZI-data=16484  
 ".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
-Build target 'project'
-linking...
-Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
-".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
-Load "E:\\Project\\STM32\\Obj\\project.AXF" 
-Build target 'project'
-linking...
-Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
-".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
-Build target 'project'
-linking...
-Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
-".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
-Build target 'project'
-linking...
-Program Size: Code=14036 RO-data=1000 RW-data=44 ZI-data=8292  
-".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
-Load "E:\\Project\\STM32\\Obj\\project.AXF" 
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
 Build target 'project'
 compiling main.cpp...
-Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(167): warning:  #111-D: statement is unreachable
-Users\main.cpp(192): warning:  #1-D: last line of file ends without a newline
+Users\main.cpp(235): warning:  #111-D: statement is unreachable
+Users\main.cpp(328): warning:  #111-D: statement is unreachable
 linking...
-Program Size: Code=13992 RO-data=1000 RW-data=44 ZI-data=8292  
-".\Obj\project.axf" - 0 Error(s), 4 Warning(s).
-Load "E:\\Project\\STM32\\Obj\\project.AXF" 
+Program Size: Code=14760 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
 Build target 'project'
 compiling main.cpp...
-Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(166): error:  #120: return value type does not match the function type
-Users\main.cpp(167): warning:  #111-D: statement is unreachable
-Users\main.cpp(197): warning:  #1-D: last line of file ends without a newline
+Users\main.cpp(327): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14896 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14896 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling stm32f10x_it.c...
+compiling main.cpp...
+Users\main.cpp(353): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14976 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(176): error:  #20: identifier "TESTPIN" is undefined
+Users\stm32f10x_it.c(190): warning:  #9-D: nested comment is not allowed
+compiling main.cpp...
+Users\main.cpp(226): warning:  #111-D: statement is unreachable
+Users\main.cpp(354): warning:  #111-D: statement is unreachable
 Target not created
 Build target 'project'
-compiling main.cpp...
-Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(166): error:  #120: return value type does not match the function type
-Users\main.cpp(167): warning:  #111-D: statement is unreachable
-Users\main.cpp(199): warning:  #1-D: last line of file ends without a newline
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(176): error:  #20: identifier "TESTPIN" is undefined
+Users\stm32f10x_it.c(190): warning:  #9-D: nested comment is not allowed
 Target not created
 Build target 'project'
-compiling main.cpp...
-Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(198): warning:  #1-D: last line of file ends without a newline
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(190): warning:  #9-D: nested comment is not allowed
 linking...
-Program Size: Code=14040 RO-data=1000 RW-data=44 ZI-data=8292  
+Program Size: Code=14724 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(278): warning:  #223-D: function "delay_ms" declared implicitly
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(179): warning:  #9-D: nested comment is not allowed
+Users\stm32f10x_it.c(185): warning:  #9-D: nested comment is not allowed
+Users\stm32f10x_it.c(202): error:  #169: expected a declaration
+Users\stm32f10x_it.c(226): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'project'
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(179): warning:  #9-D: nested comment is not allowed
+Users\stm32f10x_it.c(185): warning:  #9-D: nested comment is not allowed
+linking...
+Program Size: Code=14728 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(226): warning:  #111-D: statement is unreachable
+Users\main.cpp(354): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14728 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(283): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+Program Size: Code=14736 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14736 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(274): warning:  #223-D: function "delay_ms" declared implicitly
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14744 RO-data=792 RW-data=68 ZI-data=16484  
 ".\Obj\project.axf" - 0 Error(s), 3 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
 Build target 'project'
 compiling main.cpp...
-Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(197): error:  #20: identifier "testVGAEEprom" is undefined
-Users\main.cpp(200): warning:  #1-D: last line of file ends without a newline
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14744 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+Users\main.cpp(373): error:  #20: identifier "FLASH_Latency_2" is undefined
+Users\main.cpp(373): error:  #20: identifier "FLASH_SetLatency" is undefined
+Users\main.cpp(374): error:  #20: identifier "FLASH_PrefetchBuffer_Enable" is undefined
+Users\main.cpp(374): error:  #20: identifier "FLASH_PrefetchBufferCmd" is undefined
 Target not created
 Build target 'project'
 compiling main.cpp...
-Users\main.cpp(90): warning:  #940-D: missing return statement at end of non-void function "getData"
-Users\main.cpp(150): warning:  #940-D: missing return statement at end of non-void function "readByte"
-Users\main.cpp(204): warning:  #1-D: last line of file ends without a newline
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+Users\main.cpp(373): error:  #20: identifier "FLASH_Latency_2" is undefined
+Users\main.cpp(373): error:  #20: identifier "FLASH_SetLatency" is undefined
+Users\main.cpp(374): error:  #20: identifier "FLASH_PrefetchBuffer_Enable" is undefined
+Users\main.cpp(374): error:  #20: identifier "FLASH_PrefetchBufferCmd" is undefined
+Users\main.cpp(385): error:  #254: type name is not allowed
+Users\main.cpp(385): error:  #140: too many arguments in function call
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+Users\main.cpp(375): error:  #20: identifier "FLASH_Latency_2" is undefined
+Users\main.cpp(375): error:  #20: identifier "FLASH_SetLatency" is undefined
+Users\main.cpp(376): error:  #20: identifier "FLASH_PrefetchBuffer_Enable" is undefined
+Users\main.cpp(376): error:  #20: identifier "FLASH_PrefetchBufferCmd" is undefined
+Users\main.cpp(387): error:  #254: type name is not allowed
+Users\main.cpp(387): error:  #140: too many arguments in function call
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+Users\main.cpp(387): error:  #254: type name is not allowed
+Users\main.cpp(387): error:  #140: too many arguments in function call
+Target not created
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
 linking...
-Program Size: Code=14044 RO-data=1000 RW-data=44 ZI-data=8292  
+Program Size: Code=14832 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14832 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14832 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(274): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+Program Size: Code=14836 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(274): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+Program Size: Code=14836 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14836 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(274): warning:  #223-D: function "delay_ms" declared implicitly
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14832 RO-data=792 RW-data=68 ZI-data=16484  
 ".\Obj\project.axf" - 0 Error(s), 3 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=14832 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(278): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+Program Size: Code=14860 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14860 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(288): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+Program Size: Code=14880 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(288): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+Program Size: Code=14856 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14852 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14852 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling timer.c...
+HAL\timer.c(289): warning:  #223-D: function "delay_ms" declared implicitly
+linking...
+Program Size: Code=14868 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14868 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14868 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 2 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Clean started: Project: 'project'
+   deleting intermediate output files for target 'project'
+Build target 'project'
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_dma.c...
+assembling startup_stm32f10x_md.s...
+compiling delay.c...
+compiling io.c...
+compiling usart.c...
+HAL\usart.c(42): warning:  #223-D: function "TIM_ClearFlag" declared implicitly
+HAL\usart.c(44): warning:  #223-D: function "TIM_ITConfig" declared implicitly
+HAL\usart.c(57): warning:  #223-D: function "vsnprintf" declared implicitly
+HAL\usart.c(58): warning:  #223-D: function "strlen" declared implicitly
+HAL\usart.c(100): warning:  #550-D: variable "a" was set but never used
+compiling timer.c...
+HAL\timer.c(289): warning:  #223-D: function "delay_ms" declared implicitly
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(179): warning:  #9-D: nested comment is not allowed
+Users\stm32f10x_it.c(185): warning:  #9-D: nested comment is not allowed
+compiling VGA.c...
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14868 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 10 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 
+Clean started: Project: 'project'
+   deleting intermediate output files for target 'project'
+Build target 'project'
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_dma.c...
+assembling startup_stm32f10x_md.s...
+compiling delay.c...
+compiling io.c...
+compiling usart.c...
+HAL\usart.c(42): warning:  #223-D: function "TIM_ClearFlag" declared implicitly
+HAL\usart.c(44): warning:  #223-D: function "TIM_ITConfig" declared implicitly
+HAL\usart.c(57): warning:  #223-D: function "vsnprintf" declared implicitly
+HAL\usart.c(58): warning:  #223-D: function "strlen" declared implicitly
+HAL\usart.c(100): warning:  #550-D: variable "a" was set but never used
+compiling timer.c...
+HAL\timer.c(289): warning:  #223-D: function "delay_ms" declared implicitly
+compiling stm32f10x_it.c...
+Users\stm32f10x_it.c(179): warning:  #9-D: nested comment is not allowed
+Users\stm32f10x_it.c(185): warning:  #9-D: nested comment is not allowed
+compiling VGA.c...
+compiling main.cpp...
+Users\main.cpp(236): warning:  #111-D: statement is unreachable
+Users\main.cpp(355): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=14868 RO-data=792 RW-data=68 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 10 Warning(s).
+Load "E:\\Project\\misc\\VGA\\Obj\\project.AXF" 

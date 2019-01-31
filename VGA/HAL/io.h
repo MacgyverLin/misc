@@ -1,19 +1,12 @@
 #ifndef _IO_h_
 #define _IO_h_
 	
-#include "stm32f10x.h"
+#include <stm32f10x.h>
 
 #ifdef __cplusplus 
 extern "C"
 {
 #endif
-
-typedef unsigned char u8;
-typedef unsigned short u16;
-typedef unsigned int u32;
-typedef signed char s8;
-typedef signed short s16;
-typedef signed int s32;
 
 typedef struct{
     GPIO_TypeDef* type;
@@ -28,7 +21,6 @@ void pinMode(const GPIO* gpio, int mode);
 //#define IO_DELAY_MS(ms) delay_ms((ms))
 //#define IO_DELAY_US(us) delay_us((us))
 
-// emulate 8051
 extern const GPIO PORT_A0;
 extern const GPIO PORT_A1;
 extern const GPIO PORT_A2;

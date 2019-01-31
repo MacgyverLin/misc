@@ -165,16 +165,41 @@ void SysTick_Handler(void)
 /**
   * @}
   */
+/*
 void TIM3_IRQHandler( void )
 {
-	//TIM3_IT_Update_CallBack();
-	//TIM_ClearITPendingBit( TIM3, TIM_IT_CC1 );
-	//TIM_ClearITPendingBit( TIM3, TIM_IT_CC2 );
-	//TIM_ClearITPendingBit( TIM3, TIM_IT_CC3 );
-	//TIM_ClearITPendingBit( TIM3, TIM_IT_CC4 );
-	
-	TIM_ClearITPendingBit( TIM3, TIM_IT_Update );
+	if(GPIOA->ODR & GPIO_Pin_5)
+	{
+		GPIOA->BRR = GPIO_Pin_5;
+	}
+	else
+	{
+		GPIOA->BSRR = GPIO_Pin_5;
+	}
+/*	
+	if(TIM_GetITStatus(TIM3, TIM_IT_Update))
+	{
+		TIM3_IT_Update_CallBack();
+		TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
+	}
+	/*
+	else if(TIM_GetITStatus(TIM3, TIM_IT_CC1))
+	{
+		TIM3_IT_CC1_CallBack();
+		TIM_ClearITPendingBit(TIM3, TIM_IT_CC1);
+	}
+	else if(TIM_GetITStatus(TIM3, TIM_IT_CC2))
+	{
+		TIM3_IT_CC2_CallBack();
+		TIM_ClearITPendingBit(TIM3, TIM_IT_CC2);
+	}
+	else if(TIM_GetITStatus(TIM3, TIM_IT_CC3))
+	{
+		TIM3_IT_CC3_CallBack();
+		TIM_ClearITPendingBit(TIM3, TIM_IT_CC3);
+	}
 }
+*/
 
 /******************************************************************************/
 void DMA1_Channel2_IRQHandler( void )
