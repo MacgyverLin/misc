@@ -1,19 +1,12 @@
 #ifndef _IO_h_
 #define _IO_h_
 	
-#include "stm32f10x.h"
+#include <stm32f10x.h>
 
 #ifdef __cplusplus 
 extern "C"
 {
 #endif
-
-typedef unsigned char u8;
-typedef unsigned short u16;
-typedef unsigned int u32;
-typedef signed char s8;
-typedef signed short s16;
-typedef signed int s32;
 
 typedef struct{
     GPIO_TypeDef* type;
@@ -28,7 +21,6 @@ void pinMode(const GPIO* gpio, int mode);
 //#define IO_DELAY_MS(ms) delay_ms((ms))
 //#define IO_DELAY_US(us) delay_us((us))
 
-// emulate 8051
 extern const GPIO PORT_A0;
 extern const GPIO PORT_A1;
 extern const GPIO PORT_A2;
@@ -65,33 +57,34 @@ extern const GPIO PORT_B13;
 extern const GPIO PORT_B14;
 extern const GPIO PORT_B15;
 
-#define A15					PORT_A0		// P1.0
-#define A12					PORT_A1		// P1.1
-#define A7					PORT_A2		// P1.2
-#define A6					PORT_A3		// P1.3
-#define A5					PORT_A4		// P1.4
-#define A4					PORT_A5		// P1.5
-#define A3					PORT_A6		// P1.6
-#define A2					PORT_A7		// P1.7
-#define A1					PORT_B0		// P3.2
-#define A0					PORT_B1		// P3.3
-#define IO0					PORT_B10	// P3.5
-#define IO1					PORT_B11	// P3.6
-#define IO2					PORT_B11	// P3.6
+#define A15					PORT_B9	
+#define A12					PORT_B8	
+#define A7					PORT_B7	
+#define A6					PORT_B6	
+#define A5					PORT_B5	
+#define A4					PORT_B4	
+#define A3					PORT_B3	
+#define A2					PORT_A15
+#define A1					PORT_A12
+#define A0					PORT_A11
+#define IO0					PORT_B14
+#define IO1					PORT_B13
+#define IO2					PORT_B12
 
-#define WE					PORT_B9  //  P0.4
-#define A14					PORT_B8  //  P0.2
-#define A13					PORT_B7  /// P2.0
-#define A8					PORT_B6  /// P2.1
-#define A9					PORT_B5  /// P0.6
-#define A11					PORT_B4  //  P0.3 // 
-#define OE					PORT_B4  //  P0.3 // 
-#define A10					PORT_B9  //  P0.4
-#define IO7					PORT_B4  //  P0.3 // 
-#define IO6					PORT_B5  /// P0.6
-#define IO5					PORT_B6  /// P2.1
-#define IO4					PORT_B7  /// P2.0
-#define IO3					PORT_B8  //  P0.2
+#define WE					PORT_A6
+#define A14					PORT_A0
+#define A13					PORT_A1
+#define A8					PORT_A2
+#define A9					PORT_A3
+#define A11					PORT_A4
+#define OE					PORT_B0
+#define A10					PORT_A5 
+#define IO7					PORT_B11
+#define IO6					PORT_B1
+#define IO5					PORT_B10
+#define IO4					PORT_A8
+#define IO3					PORT_B15
+
 
 #ifdef __cplusplus 
 };

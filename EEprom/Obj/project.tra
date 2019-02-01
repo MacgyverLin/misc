@@ -8,8 +8,6 @@
 ### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
 ### List of Objects: adding '".\obj\stm32f10x_spi.o"'
 ### List of Objects: adding '".\obj\stm32f10x_usart.o"'
-### List of Objects: adding '".\obj\stm32f10x_tim.o"'
-### List of Objects: adding '".\obj\stm32f10x_dma.o"'
 ### List of Objects: adding '".\obj\startup_stm32f10x_md.o"'
 ### List of Objects: adding '".\obj\delay.o"'
 ### List of Objects: adding '".\obj\io.o"'
@@ -17,7 +15,7 @@
 ### List of Objects: adding '".\obj\stm32f10x_it.o"'
 ### List of Objects: adding '".\obj\main.o"'
 ### ADS-LD Command completed:
---cpu Cortex-M3 ".\obj\system_stm32f10x.o" ".\obj\core_cm3.o" ".\obj\misc.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_tim.o" ".\obj\stm32f10x_dma.o" ".\obj\startup_stm32f10x_md.o" ".\obj\delay.o" ".\obj\io.o" ".\obj\usart.o" ".\obj\stm32f10x_it.o" ".\obj\main.o" 
+--cpu Cortex-M3 ".\obj\system_stm32f10x.o" ".\obj\core_cm3.o" ".\obj\misc.o" ".\obj\stm32f10x_gpio.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_usart.o" ".\obj\startup_stm32f10x_md.o" ".\obj\delay.o" ".\obj\io.o" ".\obj\usart.o" ".\obj\stm32f10x_it.o" ".\obj\main.o" 
 --strict --scatter ".\Obj\project.sct" 
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
@@ -25,7 +23,7 @@
 ### ADS-LD Output File: '.\Obj\project.axf'
 ### ADS-LD Command File: '.\Obj\project.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\Obj\project.lnp', Handle=0x00000C58
+### Creating CmdFile '.\Obj\project.lnp', Handle=0x000006D0
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\Obj\project.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.

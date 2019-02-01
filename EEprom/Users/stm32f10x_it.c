@@ -165,37 +165,5 @@ void SysTick_Handler(void)
 /**
   * @}
   */
-void TIM3_IRQHandler( void )
-{
-	//TIM3_IT_Update_CallBack();
-	//TIM_ClearITPendingBit( TIM3, TIM_IT_CC1 );
-	//TIM_ClearITPendingBit( TIM3, TIM_IT_CC2 );
-	//TIM_ClearITPendingBit( TIM3, TIM_IT_CC3 );
-	//TIM_ClearITPendingBit( TIM3, TIM_IT_CC4 );
-	
-	TIM_ClearITPendingBit( TIM3, TIM_IT_Update );
-}
-
-/******************************************************************************/
-void DMA1_Channel2_IRQHandler( void )
-{
-	DMA_ClearITPendingBit( DMA1_IT_TC2 );
-
-	GPIOB->BSRR = GPIO_Pin_1;
-}  
-
-void DMA1_Channel3_IRQHandler( void )
-{
-	DMA_ClearITPendingBit( DMA1_IT_TC3 );
-
-	//GPIOB->BSRR = GPIO_Pin_1;
-}  
-
-void DMA1_Channel6_IRQHandler( void )
-{
-	DMA_ClearITPendingBit( DMA1_IT_TC6 );
-
-	//GPIOB->BSRR = GPIO_Pin_1;
-}  
 
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/

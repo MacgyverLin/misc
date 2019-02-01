@@ -466,6 +466,16 @@
               <FileType>1</FileType>
               <FilePath>.\HAL\io.c</FilePath>
             </File>
+            <File>
+              <FileName>usart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HAL\usart.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HAL\timer.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -477,14 +487,9 @@
               <FilePath>.\Users\stm32f10x_it.c</FilePath>
             </File>
             <File>
-              <FileName>mmc_sd.c</FileName>
+              <FileName>VGA.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\HWModule\mmc_sd.c</FilePath>
-            </File>
-            <File>
-              <FileName>VGMBoard.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\HWModule\VGMBoard.c</FilePath>
+              <FilePath>.\HWModule\VGA.c</FilePath>
             </File>
           </Files>
         </Group>

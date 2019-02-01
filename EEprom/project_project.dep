@@ -1,5 +1,5 @@
 Dependencies for Project 'project', Target 'project': (DO NOT MODIFY !)
-F (.\CMSIS\system_stm32f10x.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\system_stm32f10x.o" --omf_browse ".\Obj\system_stm32f10x.crf" --depend ".\Obj\system_stm32f10x.d")
+F (.\CMSIS\system_stm32f10x.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\system_stm32f10x.o" --omf_browse ".\Obj\system_stm32f10x.crf" --depend ".\Obj\system_stm32f10x.d")
 I (CMSIS\stm32f10x.h)(0x5C3BFA84)
 I (CMSIS\core_cm3.h)(0x5C3BFA84)
 I (E:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
@@ -9,9 +9,9 @@ I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\CMSIS\core_cm3.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\core_cm3.o" --omf_browse ".\Obj\core_cm3.crf" --depend ".\Obj\core_cm3.d")
+F (.\CMSIS\core_cm3.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\core_cm3.o" --omf_browse ".\Obj\core_cm3.crf" --depend ".\Obj\core_cm3.d")
 I (E:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
-F (.\Drivers\src\misc.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\misc.o" --omf_browse ".\Obj\misc.crf" --depend ".\Obj\misc.d")
+F (.\Drivers\src\misc.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\misc.o" --omf_browse ".\Obj\misc.crf" --depend ".\Obj\misc.d")
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
@@ -20,7 +20,7 @@ I (./CMSIS/system_stm32f10x.h)(0x5C3BFA84)
 I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
-F (.\Drivers\src\stm32f10x_gpio.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_gpio.o" --omf_browse ".\Obj\stm32f10x_gpio.crf" --depend ".\Obj\stm32f10x_gpio.d")
+F (.\Drivers\src\stm32f10x_gpio.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_gpio.o" --omf_browse ".\Obj\stm32f10x_gpio.crf" --depend ".\Obj\stm32f10x_gpio.d")
 I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
@@ -29,7 +29,7 @@ I (./CMSIS/system_stm32f10x.h)(0x5C3BFA84)
 I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\Drivers\src\stm32f10x_rcc.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_rcc.o" --omf_browse ".\Obj\stm32f10x_rcc.crf" --depend ".\Obj\stm32f10x_rcc.d")
+F (.\Drivers\src\stm32f10x_rcc.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_rcc.o" --omf_browse ".\Obj\stm32f10x_rcc.crf" --depend ".\Obj\stm32f10x_rcc.d")
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
@@ -38,7 +38,7 @@ I (./CMSIS/system_stm32f10x.h)(0x5C3BFA84)
 I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\Drivers\src\stm32f10x_spi.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_spi.o" --omf_browse ".\Obj\stm32f10x_spi.crf" --depend ".\Obj\stm32f10x_spi.d")
+F (.\Drivers\src\stm32f10x_spi.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_spi.o" --omf_browse ".\Obj\stm32f10x_spi.crf" --depend ".\Obj\stm32f10x_spi.d")
 I (./Drivers/inc/stm32f10x_spi.h)(0x5C3BFA84)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
@@ -48,7 +48,7 @@ I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\Drivers\src\stm32f10x_usart.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_usart.o" --omf_browse ".\Obj\stm32f10x_usart.crf" --depend ".\Obj\stm32f10x_usart.d")
+F (.\Drivers\src\stm32f10x_usart.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_usart.o" --omf_browse ".\Obj\stm32f10x_usart.crf" --depend ".\Obj\stm32f10x_usart.d")
 I (./Drivers/inc/stm32f10x_usart.h)(0x5C3BFA84)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
@@ -58,8 +58,9 @@ I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\Drivers\src\stm32f10x_tim.c)(0x5C4AE955)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_tim.o" --omf_browse ".\Obj\stm32f10x_tim.crf" --depend ".\Obj\stm32f10x_tim.d")
-I (./Drivers/inc/stm32f10x_tim.h)(0x5C3BFA84)
+F (.\StartUp\startup_stm32f10x_md.s)(0x5C516C26)(--cpu Cortex-M3 -g --apcs=interwork -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x --list ".\List\startup_stm32f10x_md.lst" --xref -o ".\Obj\startup_stm32f10x_md.o" --depend ".\Obj\startup_stm32f10x_md.d")
+F (.\HAL\delay.c)(0x5C513C02)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\delay.o" --omf_browse ".\Obj\delay.crf" --depend ".\Obj\delay.d")
+I (HAL\delay.h)(0x5C513BEB)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
 I (E:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
@@ -68,8 +69,8 @@ I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\Drivers\src\stm32f10x_dma.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_dma.o" --omf_browse ".\Obj\stm32f10x_dma.crf" --depend ".\Obj\stm32f10x_dma.d")
-I (./Drivers/inc/stm32f10x_dma.h)(0x5C3BFA84)
+F (.\HAL\io.c)(0x5C531AE5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\io.o" --omf_browse ".\Obj\io.crf" --depend ".\Obj\io.d")
+I (./HAL/io.h)(0x5C531302)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
 I (E:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
@@ -78,28 +79,7 @@ I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\StartUp\startup_stm32f10x_md.s)(0x5C3BFA84)(--cpu Cortex-M3 -g --apcs=interwork -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x --list ".\List\startup_stm32f10x_md.lst" --xref -o ".\Obj\startup_stm32f10x_md.o" --depend ".\Obj\startup_stm32f10x_md.d")
-F (.\HAL\delay.c)(0x5C3BFA84)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\delay.o" --omf_browse ".\Obj\delay.crf" --depend ".\Obj\delay.d")
-I (HAL\delay.h)(0x5C5135EC)
-I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
-I (./CMSIS/core_cm3.h)(0x5C3BFA84)
-I (E:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
-I (./CMSIS/system_stm32f10x.h)(0x5C3BFA84)
-I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
-I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
-I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
-I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\HAL\io.c)(0x5C512EAC)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\io.o" --omf_browse ".\Obj\io.crf" --depend ".\Obj\io.d")
-I (./HAL/io.h)(0x5C5128DA)
-I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
-I (./CMSIS/core_cm3.h)(0x5C3BFA84)
-I (E:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
-I (./CMSIS/system_stm32f10x.h)(0x5C3BFA84)
-I (./Users/stm32f10x_conf.h)(0x5C3BFA84)
-I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
-I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
-I (./Drivers/inc/misc.h)(0x5C3BFA84)
-F (.\HAL\usart.c)(0x5C5135D3)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\usart.o" --omf_browse ".\Obj\usart.crf" --depend ".\Obj\usart.d")
+F (.\HAL\usart.c)(0x5C5312B7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\usart.o" --omf_browse ".\Obj\usart.crf" --depend ".\Obj\usart.d")
 I (./HAL/usart.h)(0x5C3BFA84)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
@@ -111,7 +91,7 @@ I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
 I (E:\Keil\ARM\ARMCC\bin\..\include\stdarg.h)(0x4EB0D27C)
 I (./Drivers/inc/stm32f10x_usart.h)(0x5C3BFA84)
-F (.\Users\stm32f10x_it.c)(0x5C5136E7)(-c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_it.o" --omf_browse ".\Obj\stm32f10x_it.crf" --depend ".\Obj\stm32f10x_it.d")
+F (.\Users\stm32f10x_it.c)(0x5C531258)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\stm32f10x_it.o" --omf_browse ".\Obj\stm32f10x_it.crf" --depend ".\Obj\stm32f10x_it.d")
 I (Users\stm32f10x_it.h)(0x5C3BFA84)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
@@ -123,8 +103,8 @@ I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_dma.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_tim.h)(0x5C3BFA84)
-F (.\Users\main.cpp)(0x5C513941)(--cpp -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\main.o" --omf_browse ".\Obj\main.crf" --depend ".\Obj\main.d")
-I (./HAL/io.h)(0x5C5128DA)
+F (.\Users\main.cpp)(0x5C53CA29)(--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users -I E:\Keil\ARM\RV31\INC -I E:\Keil\ARM\CMSIS\Include -I E:\Keil\ARM\Inc\ST\STM32F10x -DSTM32 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -o ".\Obj\main.o" --omf_browse ".\Obj\main.crf" --depend ".\Obj\main.d")
+I (./HAL/io.h)(0x5C531302)
 I (./CMSIS/stm32f10x.h)(0x5C3BFA84)
 I (./CMSIS/core_cm3.h)(0x5C3BFA84)
 I (E:\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB0D284)
@@ -134,4 +114,4 @@ I (./Drivers/inc/stm32f10x_gpio.h)(0x5C3BFA84)
 I (./Drivers/inc/stm32f10x_rcc.h)(0x5C3BFA84)
 I (./Drivers/inc/misc.h)(0x5C3BFA84)
 I (./HAL/usart.h)(0x5C3BFA84)
-I (./HAL/delay.h)(0x5C5135EC)
+I (./HAL/delay.h)(0x5C513BEB)

@@ -1,4 +1,4 @@
---cpp -c --cpu Cortex-M3 -g -O3 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users 
+--cpp -c --cpu Cortex-M3 -g -O0 --apcs=interwork -I./CMSIS -I./Drivers/inc -I./Startup -I./HAL -I./HWModule -I./FATFS/src -I./libjpeg -I../VGMPlayerLib -I./Users 
 -I E:\Keil\ARM\RV31\INC 
 -I E:\Keil\ARM\CMSIS\Include 
 -I E:\Keil\ARM\Inc\ST\STM32F10x 

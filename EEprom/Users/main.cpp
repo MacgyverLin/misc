@@ -4,12 +4,34 @@
 
 void initialize()
 {
+	delay_init(72);
+	
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
 	GPIO_PinRemapConfig(GPIO_Remap_SWJ_JTAGDisable, ENABLE);
 	//GPIO_InitStructure.GPIO_Pin = GPIO_Pin_3 | GPIO_Pin_4 | GPIO_Pin_15;
 	//GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;
 	//GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	//GPIO_Init(GPIOB, &GPIO_InitStructure);	
+	
+	IO_WRITE(A15 , 1);
+	IO_WRITE(A12 , 1);
+	IO_WRITE(A7	 , 1);
+	IO_WRITE(A6	 , 1);
+	IO_WRITE(A5	 , 1);
+	IO_WRITE(A4	 , 1);
+	IO_WRITE(A3	 , 1);
+	IO_WRITE(A2	 , 1);
+	IO_WRITE(A1	 , 1);
+	IO_WRITE(A0	 , 1);
+
+	IO_WRITE(WE	 , 1);
+	IO_WRITE(A14 , 1);
+	IO_WRITE(A13 , 1);
+	IO_WRITE(A8	 , 1);
+	IO_WRITE(A9	 , 1);
+	IO_WRITE(A11 , 1);
+	IO_WRITE(OE	 , 1);
+	IO_WRITE(A10 , 1);
 	
 	IO_MODE(A15	, 0);
 	IO_MODE(A12	, 0);
@@ -39,7 +61,7 @@ void initialize()
 	IO_MODE(IO4	, 0);
 	IO_MODE(IO3	, 0);
 
-	USART1_Init(115200);
+	//USART1_Init(115200);
 	//USART1_printf(char *fmt, ...);
 }
 
@@ -66,14 +88,14 @@ void setAddress(u16 address)
 
 void setData(u8 data)
 {
-	IO_WRITE(IO0, data & 0x0001);
-	IO_WRITE(IO1, data & 0x0002);
-	IO_WRITE(IO2, data & 0x0004);
-	IO_WRITE(IO3, data & 0x0008);
-	IO_WRITE(IO4, data & 0x0010);
-	IO_WRITE(IO5, data & 0x0020);
-	IO_WRITE(IO6, data & 0x0040);
-	IO_WRITE(IO7, data & 0x0080);
+	IO_WRITE(IO0, data & 0x01);
+	IO_WRITE(IO1, data & 0x02);
+	IO_WRITE(IO2, data & 0x04);
+	IO_WRITE(IO3, data & 0x08);
+	IO_WRITE(IO4, data & 0x10);
+	IO_WRITE(IO5, data & 0x20);
+	IO_WRITE(IO6, data & 0x40);
+	IO_WRITE(IO7, data & 0x80);
 }
 
 u8 getData()
@@ -87,6 +109,8 @@ u8 getData()
 	d |= IO_READ(IO2)<<2;
 	d |= IO_READ(IO1)<<1;
 	d |= IO_READ(IO0);
+	
+	return d;
 }
 
 void beginWriteByte()
@@ -102,7 +126,6 @@ void beginWriteByte()
 	
 	IO_WRITE(OE, 1);
 	IO_WRITE(WE, 1);
-	delay_us(1);
 }
 
 void endWriteByte()
@@ -116,9 +139,9 @@ void writeByte(u16 address, u8 data)
 	setAddress(address);
 	setData(data);
 
-	IO_WRITE(WE, 1);
-	delay_us(1);
 	IO_WRITE(WE, 0);
+	delay_us(1);	
+	IO_WRITE(WE, 1);
 }
 
 void beginReadByte()
@@ -139,14 +162,18 @@ void beginReadByte()
 
 u8 readByte(u16 address)
 {
+	u8 data;
 	setAddress(address);
 	// setData(data);
 	delay_us(1);
 	
 	IO_WRITE(OE, 0);
 	delay_us(1);
+	data = getData();
 
 	IO_WRITE(OE, 1);
+	
+	return data;
 }
 
 void endReadByte()
@@ -157,37 +184,68 @@ void endReadByte()
 
 const char data[] = 
 {
-	0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F, 
-	0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F, 
+	//0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x0e, 0x0f, 
+	'I', 'a', 'm', ' ', 'a', ' ', 'b', 'o', 'y', '.', 'Y', 'o', 'u', ' ', 'a', 'r', 
+	'e', ' ', 'a', ' ', 'g', 'i', 'r', 'l', '.', ' ', 'O', 'K', '?', ' ', 'O', 'K',
+	'I', 'a', 'm', ' ', 'a', ' ', 'b', 'o', 'y', '.', 'Y', 'o', 'u', ' ', 'a', 'r', 
+	'e', ' ', 'a', ' ', 'g', 'i', 'r', 'l', '.', ' ', 'O', 'K', '?', ' ', 'O', 'K',	
+	'I', 'a', 'm', ' ', 'a', ' ', 'b', 'o', 'y', '.', 'Y', 'o', 'u', ' ', 'a', 'r', 
+	'e', ' ', 'a', ' ', 'g', 'i', 'r', 'l', '.', ' ', 'O', 'K', '?', ' ', 'O', 'K',
+	'I', 'a', 'm', ' ', 'a', ' ', 'b', 'o', 'y', '.', 'Y', 'o', 'u', ' ', 'a', 'r', 
+	'e', ' ', 'a', ' ', 'g', 'i', 'r', 'l', '.', ' ', 'O', 'K', '?', ' ', 'O', 'K',		
 };
 
 void testWriteEEprom()
 {
+	int i;
+	u8 d;
 	initialize();
+	u8 failed = 0;
 	
+#if 1
 	beginWriteByte();
-	for(int i=0; i<sizeof(data)/sizeof(data[0]); i++)
+
+	for(i=0; i<sizeof(data)/sizeof(data[0]); i++)
 	{
-		writeByte(i, 0x00);
+		writeByte(i<<8, data[i]);
 	}
 	
 	endWriteByte();
+#endif
 	
+#if 1
 	beginReadByte();
-	for(int i=0; i<sizeof(data)/sizeof(data[0]); i++)
+
+	for(i=0; i<sizeof(data)/sizeof(data[0]); i++)
 	{
-		u8 d = readByte(i);
+		d = readByte(i);
 		if(d!=data[i])
 		{
+			failed = 1;
+			break;
 			// printf("byte mismatch at %04x\n", i);
 		}
 	}
 	
 	endReadByte();
-
-	while (1)
+#endif
+	if(failed)
 	{
-	};	
+		while (1)
+		{
+			IO_WRITE(OE, 0);
+			delay_ms(1000);
+			IO_WRITE(OE, 1);
+			delay_ms(1000);
+		};
+	}
+	else
+	{
+		while (1)
+		{
+			IO_WRITE(OE, 0);
+		};		
+	}
 }
 
 void testVGA()
@@ -196,9 +254,7 @@ void testVGA()
 
 int main()
 {
-	// testWriteEEprom();
-	
-	testVGA();
+	testWriteEEprom();
 	
 	return -1;
 }

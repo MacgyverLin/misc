@@ -1,8 +1,5 @@
 #include <usart.h>
 #include <stdarg.h>
-//#include <stdlib.h>
-//#include <string.h>
-//#include <stdio.h>
 #include <stm32f10x_usart.h>
 
 #define USART1_REC_LEN 256
@@ -40,12 +37,10 @@ void USART1_Init(int baud)
 	USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
 	USART_Init(USART1, &USART_InitStructure);
 	
-	USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
-	
-	TIM_ClearFlag(USART1, USART_FLAG_RXNE);
-	TIM_ClearFlag(USART1, USART_FLAG_TXE);
-	TIM_ITConfig(USART1, USART_IT_RXNE, ENABLE);
-	TIM_ITConfig(USART1, USART_IT_TXE, ENABLE);
+	//USART_ClearFlag(USART1, USART_FLAG_RXNE);
+	//USART_ClearFlag(USART1, USART_FLAG_TXE);
+	//USART_ITConfig(USART1, USART_IT_RXNE, ENABLE);
+	//USART_ITConfig(USART1, USART_IT_TXE, ENABLE);
 
 	USART_Cmd(USART1, ENABLE);	
 }
