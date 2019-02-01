@@ -1,0 +1,1546 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\Project\misc\UART\project.uvproj
+Project File Date:  02/01/2019
+
+<h2>Output:</h2>
+Build target 'project'
+compiling main.c...
+Users\main.c(63): error:  #165: too few arguments in function call
+Users\main.c(63): error:  #513: a value of type "void" cannot be assigned to an entity of type "u8"
+Users\main.c(72): warning:  #940-D: missing return statement at end of non-void function "getch"
+Users\main.c(76): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+Users\main.c(77): warning:  #940-D: missing return statement at end of non-void function "putch"
+Users\main.c(89): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(76): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+Users\main.c(77): warning:  #940-D: missing return statement at end of non-void function "putch"
+Users\main.c(89): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4312 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 3 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(76): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "u8 *"
+Users\main.c(77): warning:  #940-D: missing return statement at end of non-void function "putch"
+Users\main.c(89): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4312 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 3 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(76): error:  #167: argument of type "int *" is incompatible with parameter of type "u8 *"
+Users\main.c(91): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(76): error:  #167: argument of type "int" is incompatible with parameter of type "u8 *"
+Users\main.c(91): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(91): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4316 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 1 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(80): error:  #140: too many arguments in function call
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(83): error:  #137: expression must be a modifiable lvalue
+Users\main.c(86): warning:  #940-D: missing return statement at end of non-void function "gets"
+Users\main.c(98): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(103): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(115): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(83): error:  #137: expression must be a modifiable lvalue
+Users\main.c(87): error:  #137: expression must be a modifiable lvalue
+Users\main.c(90): warning:  #940-D: missing return statement at end of non-void function "gets"
+Users\main.c(102): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(107): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(119): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(121): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4456 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 4 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(115): error:  #268: declaration may not appear after executable statement in block
+Users\main.c(123): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(123): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4456 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 4 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(121): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(125): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4996 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 5 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(121): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(126): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4992 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 5 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(121): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(126): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4992 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 5 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(121): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(126): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4992 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 5 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(121): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(126): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4992 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 5 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=4992 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=4992 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=4992 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'project'
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+assembling startup_stm32f10x_md.s...
+compiling delay.c...
+compiling io.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+Users\main.c(81): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(104): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(109): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(121): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(126): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=4992 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 5 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(24): error:  #147: declaration is incompatible with "void USART_Init(USART_TypeDef *, USART_InitTypeDef *)" (declared at line 366 of "./Drivers/inc/stm32f10x_usart.h")
+Users\main.c(29): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(31): error:  #120: return value type does not match the function type
+Users\main.c(62): error:  #167: argument of type "USART_TypeDef *" is incompatible with parameter of type "u32"
+Users\main.c(62): error:  #167: argument of type "USART_InitTypeDef *" is incompatible with parameter of type "u32"
+Users\main.c(70): error:  #120: return value type does not match the function type
+Users\main.c(78): warning:  #940-D: missing return statement at end of non-void function "USART_Init"
+Users\main.c(110): error:  #167: argument of type "USART_TypeDef *" is incompatible with parameter of type "u32"
+Users\main.c(110): error:  #167: argument of type "USART_InitTypeDef *" is incompatible with parameter of type "u32"
+Users\main.c(154): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(177): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(182): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(194): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(199): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(24): error:  #147: declaration is incompatible with "void USART_Init(USART_TypeDef *, USART_InitTypeDef *)" (declared at line 366 of "./Drivers/inc/stm32f10x_usart.h")
+Users\main.c(29): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(62): error:  #167: argument of type "USART_TypeDef *" is incompatible with parameter of type "u32"
+Users\main.c(62): error:  #167: argument of type "USART_InitTypeDef *" is incompatible with parameter of type "u32"
+Users\main.c(78): warning:  #940-D: missing return statement at end of non-void function "USART_Init"
+Users\main.c(110): error:  #167: argument of type "USART_TypeDef *" is incompatible with parameter of type "u32"
+Users\main.c(110): error:  #167: argument of type "USART_InitTypeDef *" is incompatible with parameter of type "u32"
+Users\main.c(154): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(177): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(182): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(194): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(199): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(29): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(78): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(154): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(177): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(182): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(194): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(199): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=5784 RO-data=268 RW-data=44 ZI-data=16508  
+".\Obj\project.axf" - 0 Error(s), 7 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(29): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(34): error:  #513: a value of type "USART *" cannot be assigned to an entity of type "u8 *"
+Users\main.c(40): error:  #513: a value of type "USART *" cannot be assigned to an entity of type "u8 *"
+Users\main.c(90): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(98): warning:  #223-D: function "free" declared implicitly
+Users\main.c(102): warning:  #223-D: function "free" declared implicitly
+Users\main.c(104): warning:  #223-D: function "free" declared implicitly
+Users\main.c(110): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(112): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(117): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(194): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(217): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(222): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(234): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(239): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(39): error:  #513: a value of type "USART *" cannot be assigned to an entity of type "u8 *"
+Users\main.c(44): error:  #513: a value of type "USART *" cannot be assigned to an entity of type "u8 *"
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(125): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(130): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(148): error:  #256: invalid redeclaration of type name "USART" (declared at line 24)
+Users\main.c(155): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(168): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(169): error:  #140: too many arguments in function call
+Users\main.c(176): error:  #20: identifier "USART_TXE" is undefined
+Users\main.c(152): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(255): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(278): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(283): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(295): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(300): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(125): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(130): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(148): error:  #256: invalid redeclaration of type name "USART" (declared at line 24)
+Users\main.c(155): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(168): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(169): error:  #140: too many arguments in function call
+Users\main.c(176): error:  #20: identifier "USART_TXE" is undefined
+Users\main.c(152): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(255): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(278): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(283): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(295): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(300): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(125): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(130): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(138): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(151): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(152): error:  #140: too many arguments in function call
+Users\main.c(159): error:  #20: identifier "USART_TXE" is undefined
+Users\main.c(135): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(238): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(261): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(266): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(278): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(283): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(125): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(130): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(138): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(151): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(159): error:  #20: identifier "USART_TXE" is undefined
+Users\main.c(135): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(238): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(261): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(266): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(278): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(283): warning:  #111-D: statement is unreachable
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(125): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(134): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(145): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(160): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(142): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(247): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(270): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(275): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(287): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(292): warning:  #111-D: statement is unreachable
+linking...
+.\Obj\project.axf: Error: L6218E: Undefined symbol assert (referred from main.o).
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(160): warning:  #223-D: function "assert" declared implicitly
+Users\main.c(142): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(247): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(270): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(275): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(287): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(292): warning:  #111-D: statement is unreachable
+linking...
+.\Obj\project.axf: Error: L6218E: Undefined symbol assert (referred from main.o).
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(142): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(247): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(270): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(275): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(287): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(292): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=6408 RO-data=268 RW-data=48 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 13 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(142): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(247): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(270): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(275): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(287): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(292): warning:  #111-D: statement is unreachable
+linking...
+Program Size: Code=6384 RO-data=268 RW-data=48 ZI-data=16480  
+".\Obj\project.axf" - 0 Error(s), 13 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(140): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(245): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(268): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(273): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(285): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(290): warning:  #111-D: statement is unreachable
+Users\main.c(295): error:  #65: expected a ";"
+Users\main.c(315): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(140): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(245): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(268): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(273): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(285): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(290): warning:  #111-D: statement is unreachable
+Users\main.c(300): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(300): error:  #167: argument of type "const char *" is incompatible with parameter of type "u8 *"
+Users\main.c(306): warning:  #111-D: statement is unreachable
+Users\main.c(309): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(140): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(245): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(268): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(273): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(285): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(290): warning:  #111-D: statement is unreachable
+Users\main.c(300): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(306): warning:  #111-D: statement is unreachable
+Users\main.c(309): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6444 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 16 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(33): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(36): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(110): warning:  #223-D: function "free" declared implicitly
+Users\main.c(114): warning:  #223-D: function "free" declared implicitly
+Users\main.c(116): warning:  #223-D: function "free" declared implicitly
+Users\main.c(123): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(259): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(282): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(287): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(299): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(304): warning:  #111-D: statement is unreachable
+Users\main.c(314): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(320): warning:  #111-D: statement is unreachable
+Users\main.c(323): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6520 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 16 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(161): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(270): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(293): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(298): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(310): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(315): warning:  #111-D: statement is unreachable
+Users\main.c(325): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(331): warning:  #111-D: statement is unreachable
+Users\main.c(334): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6536 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 16 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(329): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(335): warning:  #111-D: statement is unreachable
+Users\main.c(338): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6624 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(329): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(335): warning:  #111-D: statement is unreachable
+Users\main.c(338): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6624 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=6624 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(329): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(335): warning:  #111-D: statement is unreachable
+Users\main.c(338): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6632 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(22): warning:  #231-D: declaration is not visible outside of function
+Users\main.c(23): warning:  #231-D: declaration is not visible outside of function
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #513-D: a value of type "void (*)(USART *)" cannot be assigned to an entity of type "void (*)(struct USART *)"
+Users\main.c(95): warning:  #513-D: a value of type "void (*)(USART *)" cannot be assigned to an entity of type "void (*)(struct USART *)"
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(172): error:  #165: too few arguments in function call
+Users\main.c(189): error:  #165: too few arguments in function call
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(330): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(22): warning:  #231-D: declaration is not visible outside of function
+Users\main.c(23): warning:  #231-D: declaration is not visible outside of function
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(94): warning:  #513-D: a value of type "void (*)(USART *)" cannot be assigned to an entity of type "void (*)(struct USART *)"
+Users\main.c(95): warning:  #513-D: a value of type "void (*)(USART *)" cannot be assigned to an entity of type "void (*)(struct USART *)"
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(172): error:  #167: argument of type "USART *" is incompatible with parameter of type "struct USART *"
+Users\main.c(189): error:  #167: argument of type "USART *" is incompatible with parameter of type "struct USART *"
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(330): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(22): error:  #20: identifier "USART" is undefined
+Users\main.c(23): error:  #20: identifier "USART" is undefined
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(330): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(7): warning:  #375-D: declaration requires a typedef name
+Users\main.c(24): error:  #20: identifier "USART" is undefined
+Users\main.c(25): error:  #20: identifier "USART" is undefined
+Users\main.c(43): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(46): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(107): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(123): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(129): warning:  #223-D: function "free" declared implicitly
+Users\main.c(136): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(152): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(167): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(276): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(299): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(304): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(316): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(321): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(338): warning:  #111-D: statement is unreachable
+Users\main.c(341): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(330): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6644 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6640 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6640 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=6640 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6640 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=6640 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6640 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=6636 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(314): warning:  #223-D: function "sprintf" declared implicitly
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6632 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 17 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6092 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6092 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6092 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=6092 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=6092 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6096 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(333): warning:  #223-D: function "USART_ReceiveFinished" declared implicitly
+Users\main.c(334): error:  #167: argument of type "int" is incompatible with parameter of type "u8 *"
+Users\main.c(334): error:  #165: too few arguments in function call
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(333): warning:  #223-D: function "USART_ReceiveFinished" declared implicitly
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+.\Obj\project.axf: Error: L6218E: Undefined symbol USART_ReceiveFinished (referred from main.o).
+Target not created
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+_____^
+*** error 56: cannot open file
+Build target 'project'
+linking...
+.\Obj\project.axf: Error: L6218E: Undefined symbol USART_ReceiveFinished (referred from main.o).
+Target not created
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6120 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=6120 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=6120 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=6120 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'project'
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+assembling startup_stm32f10x_md.s...
+compiling delay.c...
+compiling io.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6120 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=6120 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(274): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(297): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(302): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(319): warning:  #111-D: statement is unreachable
+Users\main.c(306): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(307): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(332): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(336): warning:  #111-D: statement is unreachable
+Users\main.c(339): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6132 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(272): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(295): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(300): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(317): warning:  #111-D: statement is unreachable
+Users\main.c(304): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(305): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(330): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6072 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(272): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(295): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(300): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(317): warning:  #111-D: statement is unreachable
+Users\main.c(304): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(305): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(330): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6092 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(273): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(296): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(301): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(318): warning:  #111-D: statement is unreachable
+Users\main.c(305): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(306): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(331): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(335): warning:  #111-D: statement is unreachable
+Users\main.c(338): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(273): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(296): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(301): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(318): warning:  #111-D: statement is unreachable
+Users\main.c(305): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(306): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(331): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(335): warning:  #111-D: statement is unreachable
+Users\main.c(338): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Clean started: Project: 'project'
+   deleting intermediate output files for target 'project'
+Build target 'project'
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling misc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+assembling startup_stm32f10x_md.s...
+compiling delay.c...
+compiling io.c...
+compiling stm32f10x_it.c...
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(273): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(296): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(301): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(318): warning:  #111-D: statement is unreachable
+Users\main.c(305): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(306): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(331): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(335): warning:  #111-D: statement is unreachable
+Users\main.c(338): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Load "E:\\Project\\misc\\UART\\Obj\\project.AXF" 
+Build target 'project'
+linking...
+Program Size: Code=5980 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 0 Warning(s).
+Build target 'project'
+compiling main.c...
+Users\main.c(41): warning:  #223-D: function "malloc" declared implicitly
+Users\main.c(44): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(105): warning:  #940-D: missing return statement at end of non-void function "USART_Create"
+Users\main.c(121): warning:  #223-D: function "free" declared implicitly
+Users\main.c(125): warning:  #223-D: function "free" declared implicitly
+Users\main.c(127): warning:  #223-D: function "free" declared implicitly
+Users\main.c(134): warning:  #223-D: function "memcpy" declared implicitly
+Users\main.c(150): warning:  #223-D: function "memset" declared implicitly
+Users\main.c(165): warning:  #177-D: variable "res" was declared but never referenced
+Users\main.c(272): warning:  #68-D: integer conversion resulted in a change of sign
+Users\main.c(295): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(300): warning:  #940-D: missing return statement at end of non-void function "puts"
+Users\main.c(317): warning:  #111-D: statement is unreachable
+Users\main.c(304): warning:  #177-D: variable "buffer" was declared but never referenced
+Users\main.c(305): warning:  #177-D: variable "counter" was declared but never referenced
+Users\main.c(330): warning:  #223-D: function "strlen" declared implicitly
+Users\main.c(334): warning:  #111-D: statement is unreachable
+Users\main.c(337): warning:  #940-D: missing return statement at end of non-void function "testUSARTASync"
+linking...
+Program Size: Code=6092 RO-data=288 RW-data=52 ZI-data=16484  
+".\Obj\project.axf" - 0 Error(s), 18 Warning(s).

@@ -1,0 +1,11 @@
+.\Obj\delay.o: HAL\delay.c
+.\Obj\delay.o: HAL\delay.h
+.\Obj\delay.o: ./CMSIS/stm32f10x.h
+.\Obj\delay.o: ./CMSIS/core_cm3.h
+.\Obj\delay.o: E:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\delay.o: ./CMSIS/system_stm32f10x.h
+.\Obj\delay.o: ./Users/stm32f10x_conf.h
+.\Obj\delay.o: ./Drivers/inc/stm32f10x_gpio.h
+.\Obj\delay.o: ./CMSIS/stm32f10x.h
+.\Obj\delay.o: ./Drivers/inc/stm32f10x_rcc.h
+.\Obj\delay.o: ./Drivers/inc/misc.h

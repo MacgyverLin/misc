@@ -1,0 +1,11 @@
+.\Obj\stm32f10x_dma.o: Drivers\src\stm32f10x_dma.c
+.\Obj\stm32f10x_dma.o: ./Drivers/inc/stm32f10x_dma.h
+.\Obj\stm32f10x_dma.o: ./CMSIS/stm32f10x.h
+.\Obj\stm32f10x_dma.o: ./CMSIS/core_cm3.h
+.\Obj\stm32f10x_dma.o: E:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\stm32f10x_dma.o: ./CMSIS/system_stm32f10x.h
+.\Obj\stm32f10x_dma.o: ./Users/stm32f10x_conf.h
+.\Obj\stm32f10x_dma.o: ./Drivers/inc/stm32f10x_gpio.h
+.\Obj\stm32f10x_dma.o: ./CMSIS/stm32f10x.h
+.\Obj\stm32f10x_dma.o: ./Drivers/inc/stm32f10x_rcc.h
+.\Obj\stm32f10x_dma.o: ./Drivers/inc/misc.h

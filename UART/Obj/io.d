@@ -1,0 +1,11 @@
+.\Obj\io.o: HAL\io.c
+.\Obj\io.o: ./HAL/io.h
+.\Obj\io.o: ./CMSIS/stm32f10x.h
+.\Obj\io.o: ./CMSIS/core_cm3.h
+.\Obj\io.o: E:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\io.o: ./CMSIS/system_stm32f10x.h
+.\Obj\io.o: ./Users/stm32f10x_conf.h
+.\Obj\io.o: ./Drivers/inc/stm32f10x_gpio.h
+.\Obj\io.o: ./CMSIS/stm32f10x.h
+.\Obj\io.o: ./Drivers/inc/stm32f10x_rcc.h
+.\Obj\io.o: ./Drivers/inc/misc.h

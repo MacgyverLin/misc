@@ -1,0 +1,10 @@
+.\Obj\system_stm32f10x.o: CMSIS\system_stm32f10x.c
+.\Obj\system_stm32f10x.o: CMSIS\stm32f10x.h
+.\Obj\system_stm32f10x.o: CMSIS\core_cm3.h
+.\Obj\system_stm32f10x.o: E:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\system_stm32f10x.o: CMSIS\system_stm32f10x.h
+.\Obj\system_stm32f10x.o: ./Users/stm32f10x_conf.h
+.\Obj\system_stm32f10x.o: ./Drivers/inc/stm32f10x_gpio.h
+.\Obj\system_stm32f10x.o: ./CMSIS/stm32f10x.h
+.\Obj\system_stm32f10x.o: ./Drivers/inc/stm32f10x_rcc.h
+.\Obj\system_stm32f10x.o: ./Drivers/inc/misc.h
