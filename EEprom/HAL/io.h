@@ -67,9 +67,9 @@ extern const GPIO PORT_B15;
 #define A2					PORT_A15
 #define A1					PORT_A12
 #define A0					PORT_A11
-#define IO0					PORT_B14
-#define IO1					PORT_B13
-#define IO2					PORT_B12
+#define IO0					PORT_B14 //
+#define IO1					PORT_B13 //
+#define IO2					PORT_B12 //
 
 #define WE					PORT_A6
 #define A14					PORT_A0
@@ -79,11 +79,11 @@ extern const GPIO PORT_B15;
 #define A11					PORT_A4
 #define OE					PORT_B0
 #define A10					PORT_A5 
-#define IO7					PORT_B11
-#define IO6					PORT_B1
-#define IO5					PORT_B10
-#define IO4					PORT_A8
-#define IO3					PORT_B15
+#define IO7					PORT_B11 //
+#define IO6					PORT_B1  // PORT_A9
+#define IO5					PORT_B10 //
+#define IO4					PORT_A8  //
+#define IO3					PORT_B15 //
 
 
 #ifdef __cplusplus 
