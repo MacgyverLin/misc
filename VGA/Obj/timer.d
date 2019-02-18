@@ -1,0 +1,12 @@
+.\Obj\timer.o: HAL\timer.c
+.\Obj\timer.o: HAL\timer.h
+.\Obj\timer.o: ./CMSIS/stm32f10x.h
+.\Obj\timer.o: ./CMSIS/core_cm3.h
+.\Obj\timer.o: E:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\Obj\timer.o: ./CMSIS/system_stm32f10x.h
+.\Obj\timer.o: ./Users/stm32f10x_conf.h
+.\Obj\timer.o: ./Drivers/inc/stm32f10x_gpio.h
+.\Obj\timer.o: ./CMSIS/stm32f10x.h
+.\Obj\timer.o: ./Drivers/inc/stm32f10x_rcc.h
+.\Obj\timer.o: ./Drivers/inc/misc.h
+.\Obj\timer.o: ./Drivers/inc/stm32f10x_tim.h
